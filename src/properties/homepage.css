@@ -2,7 +2,7 @@ body{
   width: 100%;
   position: fixed;
 }
-.openedNav {
+.closedNav {
     margin: 0;
     padding: 0;
     width: 21rem;
@@ -83,11 +83,11 @@ body{
 }
 .sidenav{
   left: 0%;
-  transition: 1.5s;
+  transition: left 1.0s ease-out;
 }
 .collapseNav{
-  transition: 1.5s;
-  left: 21rem;
+  transform: translateX(21rem);
+  transition: transform 1.0s ease-in-out;
   opacity: 0.3;
 }
 .pull-right{
@@ -157,7 +157,7 @@ body{
   margin: auto;
   margin-top: 0;
 }
-@media (min-width: 720px){
+@media screen and (min-width: 720px){
   .responsive{
     display: flex;
     height: 4.375em;
@@ -182,8 +182,19 @@ body{
      color: rgb(255, 255, 255);
    }
 }
-@media (max-width: 720px){
+@media screen and (max-width: 720px){
   .responsive{
     display: none;
+  }
+}
+@media screen and (max-width: 720){
+  .secondNav{
+    height: 3rem;
+  } 
+  .bt-menu{
+    height: 3rem;
+  }
+  .closedNav{
+    width: 15rem;
   }
 }

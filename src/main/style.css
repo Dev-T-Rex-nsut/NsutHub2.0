@@ -1,0 +1,243 @@
+.grid{
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 30vw 30vw 30vw;
+}
+
+.grid1{
+	display: grid;
+	grid-template-columns: 40vw 40vw;
+	justify-content: center;
+}
+
+.grid2{
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 30vw 30vw 30vw;
+	background-color: black; 
+	color: white; 
+	height: 10vw;
+}
+
+.changelay2{
+		display: none;
+	}
+
+.extra{
+	border-radius: 0%;
+}
+
+.her{
+	border-radius: 0%;
+}
+
+@media only screen and (max-width: 1000px) {
+
+	.extra{
+		width: 75%;
+	}
+
+	.grid{
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 40vw 40vw;
+}
+
+	.cardmajor{
+		  grid-column-start: 1;
+  		grid-column-end: 3;
+  		padding: 2vw;
+
+	}
+
+	.grid1{
+		display: block;
+	}
+
+	.changelay1{
+		display: none;
+	}
+	.changelay2{
+		display: block;
+	}
+
+
+
+}
+
+img{
+	width: 100%;
+	border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.card{
+	border-radius: 5%;
+	margin: 2vw; 
+	box-shadow: rgb(209, 209, 213) 0px 5px 15px;
+}
+
+.card:hover{
+	transform: scale(1.05);
+	transition: 0.75s;
+	/*box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;*/
+}
+
+.info{
+	border-radius: 10px;
+box-shadow: 2px 2px 5px rgba(0,0,0,0.5),
+            inset 5px 5px 8px rgba(0,0,0,0.5);
+width: 80%; 
+height: 20vw;
+margin: auto; 
+display: none;
+}
+
+.text{
+	padding: 1vw;
+	padding-top: 0.25vw; 
+	padding-bottom: 0.5vw;
+}
+
+.texthead{
+	font-size: 1.5vw;
+}
+
+.textdis{
+	margin-bottom: 0.5vw;
+	 font-size: 1vw;
+}
+
+.container {
+  position: relative;
+  color: white;
+}
+.bottom-left {
+	font-family: "Sitka Small";
+  position: absolute;
+  top: 14%;
+  left: 52px;
+  font-size: 5vw;
+}
+
+.extra:hover{
+	transform: scale(1.025);
+	transition: 0.5s;
+}
+
+.hero-text1{
+	font-size: 4.75vw;
+	 font-weight: 2;
+	  color: black; 
+	  margin: 0.85vw;
+}
+
+.hero-text4{
+	margin: 0.85vw;
+}
+
+.hero-text2{
+	font-size: 4vw; 
+	margin: 0.85vw; 
+	font-weight: 2;
+}
+
+.hero-text3{
+	font-size: 1.5vw; 
+	font-weight: 1; 
+	margin-left: 0.95vw; 
+	margin-bottom: 0em;
+}
+
+.up{
+	text-align: center; 
+	margin: 0em; 
+	padding-top: 0em; 
+	display: none;
+}
+
+.down{
+	text-align: center; 
+	margin: 0em; 
+	padding-top: 0em;
+}
+
+.instruct{
+	font-size: 0.75vw; 
+	text-align: center; 
+	margin-bottom: 0em;
+}
+
+.info{
+	padding: 2vw; 
+	font-size: 1vw;
+}
+
+.footr{
+	align-self: center;
+	font-size: 1vw;
+}
+
+.extra-head{
+	text-align: center; 
+	font-size: 6vw; 
+	padding: 2vw; 
+	margin: 0em; 
+	color: black;
+}
+
+.extra-main{
+	overflow-x: hidden;
+	background-image: url("img/extra.jpg"); 
+	background-attachment: fixed;
+	background-size: cover; 
+	color: white; 
+	margin: 0px; 
+	margin-top: 2vw;
+}
+
+.lay{
+	 padding: 2vw; 
+	 text-align: center; 
+	 font-size: 1.25vw; 
+	 color: black; 
+	 align-self: center;
+}
+
+.ic{
+	padding: 1vw;
+}
+
+.request{
+	color: black; 
+	left: 20%; 
+	position: absolute; 
+	right: 20%; 
+	top: 15%; 
+	font-family: 'Sitka Small';
+}
+
+.request-head{
+	font-size: 3.5vw;
+}
+
+.request-text{
+	margin: 2.75vw;
+	font-size: 1vw;
+}
+
+.con-add{
+	text-align: left; 
+	margin: 0px;
+}
+.extra-heading{
+font-size: 4.5vw;}
+
+.extra-img{
+	padding:  2vw; 
+	text-align: center;
+}
+
+.notop{
+	margin-top: 0em;
+}

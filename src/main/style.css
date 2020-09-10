@@ -42,7 +42,7 @@
 	.grid{
 	display: grid;
 	justify-content: center;
-	grid-template-columns: 60vw;
+	grid-template-columns: 95vw;
 }
 
 	.cardmajor{

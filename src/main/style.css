@@ -29,6 +29,8 @@
 
 .her{
 	border-radius: 0%;
+	opacity: 0.5;
+	height: 100%;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -40,12 +42,10 @@
 	.grid{
 	display: grid;
 	justify-content: center;
-	grid-template-columns: 40vw 40vw;
+	grid-template-columns: 60vw;
 }
 
 	.cardmajor{
-		  grid-column-start: 1;
-  		grid-column-end: 3;
   		padding: 2vw;
 
 	}
@@ -111,6 +111,7 @@ display: none;
 .container {
   position: relative;
   color: white;
+  background: rgba(0,0,0,0.75);
 }
 .bottom-left {
 	font-family: "Sitka Small";
@@ -197,11 +198,9 @@ display: none;
 }
 
 .lay{
-	 padding: 2vw; 
-	 text-align: center; 
-	 font-size: 1.25vw; 
+	 padding: 2vw;  
+	 font-size: 1.5vw; 
 	 color: black; 
-	 align-self: center;
 }
 
 .ic{
@@ -219,11 +218,15 @@ display: none;
 
 .request-head{
 	font-size: 3.5vw;
+	color: white;
+	text-shadow: 2px 2px black;
 }
 
 .request-text{
 	margin: 2.75vw;
-	font-size: 1vw;
+	font-size: 1.5vw;
+	color: white;
+	text-shadow: 2px 2px black;
 }
 
 .con-add{
@@ -231,7 +234,7 @@ display: none;
 	margin: 0px;
 }
 .extra-heading{
-font-size: 4.5vw;}
+font-size: 3vw;}
 
 .extra-img{
 	padding:  2vw; 

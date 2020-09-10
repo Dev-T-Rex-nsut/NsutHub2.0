@@ -1,6 +1,5 @@
 body{
   width: 100%;
-  position: fixed;
 }
 .closedNav {
     margin: 0;
@@ -91,6 +90,7 @@ body{
   transform: translateX(21rem);
   transition: transform 1.0s ease-in-out;
   opacity: 0.3;
+  position: fixed;
 }
 .pull-right{
   cursor: pointer;
@@ -99,7 +99,9 @@ body{
   font-size: 1.063rem;
   font-weight: 600;
   display: flex;
-  position: relative;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
   height: 4.375em;
   border-bottom: 1.5px solid darkgray;
   box-shadow: 1px 1px darkgray;
@@ -203,6 +205,7 @@ body{
     transform: translateX(16rem);
     transition: transform 1.0s ease-in-out;
     opacity: 0.3;
+    position: fixed;
   }
   .nav-top{
     height: 25%;

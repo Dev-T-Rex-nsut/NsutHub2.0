@@ -71,7 +71,7 @@ class Home extends React.Component {
 	<b class="hero-text4">NSUT-HUB</b><br/>
 	<p class="hero-text3">Enlightning Students,</p>
 	 <p class="hero-text3 notop ">One at a time.</p>
-	<p class="hero-text3 notop notop1">By the students,For the Students.</p>
+	<p class="hero-text5 notop notop1">By the students,For the Students.</p>
 	</h1>
 	</div>
 <div class="grid">
@@ -122,24 +122,24 @@ class Home extends React.Component {
 <div class="extra-main">
 	<h1 class="extra-head">Other Services</h1>
 	<div class="grid1">
-	<p class="changelay1 lay " data-aos="fade-right" data-aos-duration="2000"><b class="extra-heading ">Question Papers</b><br/>A catalogue of up to date question papers at your disposal.<br/><br/>•every subject, every year.<br/>•from (insert year)<br/></p>
+	<p class="lay " data-aos="fade-right" data-aos-duration="2000"><b class="extra-heading ">Question Papers</b><br/>A catalogue of up to date question papers at your disposal.<br/><br/>•every subject, every year.<br/>•from (insert year)<br/></p>
 	<div class="extra-img" data-aos="fade-left" data-aos-duration="2000">
 	<img  src={ques} width="100%;" class ="extra" />
 	</div>
-	<p class="changelay2 lay" data-aos="fade-right" data-aos-duration="2000"><b  class="extra-heading ">Question Papers</b><br/>A catalogue of up to date question papers at your disposal.<br/><br/>•every subject, every year.<br/>•from (insert year)<br/></p>
+	<p class="changelay2 lay" data-aos="fade-left" data-aos-duration="2000" ><b class="extra-heading ">Event hub:</b><br/>Never miss an event ever again. One quick look at The Event Hub and you are good to go.<br/><br/>•date and timing of every event<br/>•Name of the society hosting it<br/>•Participation forms/requirements (if any)<br/></p>
 	<div class="extra-img" data-aos="fade-right" data-aos-duration="2000">
 	<img  src={event} width="100%;" class ="extra" />
 	</div>
-	<p class="lay" data-aos="fade-left" data-aos-duration="2000" ><b class="extra-heading ">Event hub:</b><br/>Never miss an event ever again. One quick look at The Event Hub and you are good to go.<br/><br/>•date and timing of every event<br/>•Name of the society hosting it<br/>•Participation forms/requirements (if any)<br/></p>
-	<p class="changelay1 lay" data-aos="fade-right" data-aos-duration="2000"><b class="extra-heading ">Society hub:</b><br/>Looking for a particular society or just want to explore your options? Our Society Hub has got you covered.<br/><br/>•information about every society<br/>•their forms and requirements to join<br/>•contact details</p>
+	<p class="changelay1 lay" data-aos="fade-left" data-aos-duration="2000" ><b class="extra-heading ">Event hub:</b><br/>Never miss an event ever again. One quick look at The Event Hub and you are good to go.<br/><br/>•date and timing of every event<br/>•Name of the society hosting it<br/>•Participation forms/requirements (if any)<br/></p>
+	<p class="lay" data-aos="fade-right" data-aos-duration="2000"><b class="extra-heading ">Society hub:</b><br/>Looking for a particular society or just want to explore your options? Our Society Hub has got you covered.<br/><br/>•information about every society<br/>•their forms and requirements to join<br/>•contact details</p>
 	<div class="extra-img" data-aos="fade-left" data-aos-duration="2000">
 	<img  src={society} width="100%;" class ="extra" />
 	</div>
-	<p class="changelay2 lay" data-aos="fade-right" data-aos-duration="2000"><b class="extra-heading extra-info">Society hub:</b><br/>Looking for a particular society or just want to explore your options? Our Society Hub has got you covered.<br/><br/>•information about every society<br/>•their forms and requirements to join<br/>•contact details</p>
+	<p class="changelay2 lay" data-aos="fade-left" data-aos-duration="2000"><b class="extra-heading ">Notes:</b><br/>Simple and easy to understand notes for the perfect preparation. Never go unprepared ever again.<br/><br/>•Get notes of the topics you missed or couldn't understand.<br/>•Notes of every subject available and for every year.<br/></p>
 	<div class="extra-img" data-aos="fade-right" data-aos-duration="2000">
 	<img  src={notes} width="100%;" class ="extra" />
 	</div>
-	<p class="lay" data-aos="fade-left" data-aos-duration="2000"><b class="extra-heading ">Notes:</b><br/>Simple and easy to understand notes for the perfect preparation. Never go unprepared ever again.<br/><br/>•Get notes of the topics you missed or couldn't understand.<br/>•Notes of every subject available and for every year.<br/></p>
+	<p class="changelay1 lay" data-aos="fade-left" data-aos-duration="2000"><b class="extra-heading ">Notes:</b><br/>Simple and easy to understand notes for the perfect preparation. Never go unprepared ever again.<br/><br/>•Get notes of the topics you missed or couldn't understand.<br/>•Notes of every subject available and for every year.<br/></p>
 </div>
 </div>
 <div class="container con-add">

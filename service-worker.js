@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/NsutHub2.0/precache-manifest.068af20ee564821bf4b1a5cdada0afe3.js"
+  "/NsutHub2.0/precache-manifest.a0aaa08247f68edc181deaf6f5173b04.js"
 );
 
 self.addEventListener('message', (event) => {

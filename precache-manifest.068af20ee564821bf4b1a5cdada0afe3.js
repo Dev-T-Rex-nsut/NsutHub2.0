@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a45ddd6610edef54ae61204054d242c7",
+    "revision": "8b66310783cfd6bfd6ef35169dfff6f4",
     "url": "/NsutHub2.0/index.html"
   },
   {
-    "revision": "a51c63046bf42d6fdeef",
+    "revision": "88c67832f64e363ca2e6",
     "url": "/NsutHub2.0/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "c7395db1e3e7a369611e",
-    "url": "/NsutHub2.0/static/css/main.19afdc88.chunk.css"
+    "revision": "3ffcc9d057d88ea618bf",
+    "url": "/NsutHub2.0/static/css/main.a15ffdef.chunk.css"
   },
   {
-    "revision": "a51c63046bf42d6fdeef",
-    "url": "/NsutHub2.0/static/js/2.201a3b70.chunk.js"
+    "revision": "88c67832f64e363ca2e6",
+    "url": "/NsutHub2.0/static/js/2.2ea06dfe.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/NsutHub2.0/static/js/2.201a3b70.chunk.js.LICENSE.txt"
+    "url": "/NsutHub2.0/static/js/2.2ea06dfe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c7395db1e3e7a369611e",
-    "url": "/NsutHub2.0/static/js/main.7751e829.chunk.js"
+    "revision": "3ffcc9d057d88ea618bf",
+    "url": "/NsutHub2.0/static/js/main.6ed45292.chunk.js"
   },
   {
     "revision": "c795d291214fb084432a",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7e504c5fe56a83035048616aa9ecc8a2",
     "url": "/NsutHub2.0/static/media/new.7e504c5f.jpg"
+  },
+  {
+    "revision": "18345ed278911a82780cc81b0d9a4a83",
+    "url": "/NsutHub2.0/static/media/new1.18345ed2.jpg"
   },
   {
     "revision": "fd90018e1e720c5611b6c6ea63e83ed8",

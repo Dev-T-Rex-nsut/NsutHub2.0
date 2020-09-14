@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/NsutHub2.0/static/css/main.19afdc88.chunk.css",
-    "main.js": "/NsutHub2.0/static/js/main.7751e829.chunk.js",
-    "main.js.map": "/NsutHub2.0/static/js/main.7751e829.chunk.js.map",
+    "main.css": "/NsutHub2.0/static/css/main.a15ffdef.chunk.css",
+    "main.js": "/NsutHub2.0/static/js/main.6ed45292.chunk.js",
+    "main.js.map": "/NsutHub2.0/static/js/main.6ed45292.chunk.js.map",
     "runtime-main.js": "/NsutHub2.0/static/js/runtime-main.f52a5aa3.js",
     "runtime-main.js.map": "/NsutHub2.0/static/js/runtime-main.f52a5aa3.js.map",
     "static/css/2.4707e12a.chunk.css": "/NsutHub2.0/static/css/2.4707e12a.chunk.css",
-    "static/js/2.201a3b70.chunk.js": "/NsutHub2.0/static/js/2.201a3b70.chunk.js",
-    "static/js/2.201a3b70.chunk.js.map": "/NsutHub2.0/static/js/2.201a3b70.chunk.js.map",
+    "static/js/2.2ea06dfe.chunk.js": "/NsutHub2.0/static/js/2.2ea06dfe.chunk.js",
+    "static/js/2.2ea06dfe.chunk.js.map": "/NsutHub2.0/static/js/2.2ea06dfe.chunk.js.map",
     "index.html": "/NsutHub2.0/index.html",
-    "precache-manifest.a47b4f6e3c585ac32696c105464e1430.js": "/NsutHub2.0/precache-manifest.a47b4f6e3c585ac32696c105464e1430.js",
+    "precache-manifest.068af20ee564821bf4b1a5cdada0afe3.js": "/NsutHub2.0/precache-manifest.068af20ee564821bf4b1a5cdada0afe3.js",
     "service-worker.js": "/NsutHub2.0/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/NsutHub2.0/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.19afdc88.chunk.css.map": "/NsutHub2.0/static/css/main.19afdc88.chunk.css.map",
-    "static/js/2.201a3b70.chunk.js.LICENSE.txt": "/NsutHub2.0/static/js/2.201a3b70.chunk.js.LICENSE.txt",
+    "static/css/main.a15ffdef.chunk.css.map": "/NsutHub2.0/static/css/main.a15ffdef.chunk.css.map",
+    "static/js/2.2ea06dfe.chunk.js.LICENSE.txt": "/NsutHub2.0/static/js/2.2ea06dfe.chunk.js.LICENSE.txt",
     "static/media/background.png": "/NsutHub2.0/static/media/background.550ebd6a.png",
     "static/media/card1.png": "/NsutHub2.0/static/media/card1.b2609273.png",
     "static/media/card2.png": "/NsutHub2.0/static/media/card2.edd48f9e.png",
@@ -21,6 +21,7 @@
     "static/media/event.png": "/NsutHub2.0/static/media/event.d76941f1.png",
     "static/media/style.css": "/NsutHub2.0/static/media/extra.8c0689b6.jpg",
     "static/media/new.jpg": "/NsutHub2.0/static/media/new.7e504c5f.jpg",
+    "static/media/new1.jpg": "/NsutHub2.0/static/media/new1.18345ed2.jpg",
     "static/media/notes.png": "/NsutHub2.0/static/media/notes.fd90018e.png",
     "static/media/ques.png": "/NsutHub2.0/static/media/ques.c84dd936.png",
     "static/media/society.png": "/NsutHub2.0/static/media/society.f06bd717.png"
@@ -28,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.f52a5aa3.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.201a3b70.chunk.js",
-    "static/css/main.19afdc88.chunk.css",
-    "static/js/main.7751e829.chunk.js"
+    "static/js/2.2ea06dfe.chunk.js",
+    "static/css/main.a15ffdef.chunk.css",
+    "static/js/main.6ed45292.chunk.js"
   ]
 }

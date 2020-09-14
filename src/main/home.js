@@ -8,6 +8,7 @@ import { FaLinkedinIn } from 'react-icons/fa';
 import { FaInstagramSquare } from 'react-icons/fa';
 import "./style.css"
 import background from './img/background.png';
+import background1 from './img/background1.png';
 import card1 from './img/card1.png';
 import card2 from './img/card2.png';
 import card3 from './img/card3.png';
@@ -67,7 +68,7 @@ class Home extends React.Component {
        <main className="moveRt" >
          <div class="container">
 	<img src={new1} class="her"/>
-	<h1 class="bottom-left" data-aos='fade-down' data-aos-duration="5000">
+	<h1 class="bottom-left" data-aos='fade-down'>
 	<p class="hero-text1">Welcome</p>
 	<p class="hero-text2">To </p>
 	<b class="hero-text4">NSUT-HUB</b><br/>
@@ -145,7 +146,7 @@ class Home extends React.Component {
 </div>
 </div>
 <div class="container con-add">
-<img src={background} class="her"/>
+<img src={background1} class="her"/>
 <div class="request">
 	<h1 class="request-head">Join NSUT-HUB Support Team</h1>
 	<p class="request-text">All of us know that getting hands on question papers, Notes ,E-Books is a difficult job and on top of it we are short-handed. We will appreciate any help we can get. You can contribute by sending us your notes, E-books, question papers. Small contributions from everyone will help us create the best collection of all the essentials. You can send the content on the Whatsapp group, join now by clicking the button given below.</p>
@@ -170,7 +171,7 @@ class Home extends React.Component {
        <main className="moveRt" >
          <div class="container">
 	<img src={new2} class="her"/>
-	<h1 class="bottom-left" data-aos='fade-down' data-aos-duration="5000">
+	<h1 class="bottom-left" data-aos='fade-down'  >
 	<p class="hero-text1">Welcome</p>
 	<p class="hero-text2">To </p>
 	<b class="hero-text4">NSUT-HUB</b><br/>

@@ -214,7 +214,7 @@ display: none;
 	margin: 0px;
 }
 .extra-heading{
-font-size: 3vw;}
+font-size: 3.5vw;}
 
 .extra-img{
 	padding:  2vw; 
@@ -229,16 +229,15 @@ font-size: 3vw;}
 	.grid{
 	display: grid;
 	justify-content: center;
-	grid-template-columns: 85vw;
-}
+	grid-template-columns: 82.5vw;
+	}
 
-	.cardmajor{
-  		padding: 2vw;
-
+	.grid1{
+	grid-template-columns: 47.5vw 47.5vw;
 	}
 
 	.lay{
-		font-size: 2vw;
+		font-size: 2.37vw;
 	}
 	.texthead{
 		font-size: 5vw;

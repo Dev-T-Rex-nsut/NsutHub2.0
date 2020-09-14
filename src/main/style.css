@@ -229,7 +229,7 @@ font-size: 3vw;}
 	.grid{
 	display: grid;
 	justify-content: center;
-	grid-template-columns: 95vw;
+	grid-template-columns: 85vw;
 }
 
 	.cardmajor{
@@ -277,8 +277,9 @@ font-size: 3vw;}
 }
 
 .bottom-left{
-	left: 30%;
+	left: 25%;
 	font-size: 6vw;
+	top: 25%;
 }
 }
 

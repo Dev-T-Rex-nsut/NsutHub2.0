@@ -168,7 +168,7 @@ class Home extends React.Component {
 	<img src={new2} class="her"/>
 	<h1 class="bottom-left"    >
 	<p class="hero-text1  hero-text">Welcome</p>
-	<p class="hero-text2 hero-text">To </p>
+	<p class="hero-text2 hero-text">To </p><br/>
 	<b class="hero-text4">NSUT-HUB</b><br/>
 	<p class="hero-text3">Enlightning Students,</p>
 	 <p class="hero-text3 notop ">One at a time.</p>

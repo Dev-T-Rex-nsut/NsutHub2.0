@@ -233,11 +233,21 @@ font-size: 3.5vw;}
 	}
 
 	.grid1{
-	grid-template-columns: 47.5vw 47.5vw;
+	display: block;
+	}
+
+	.extra-heading{
+	font-size: 7vw;}
+
+	.changelay1{
+		display: none;
+	}
+	.changelay2{
+		display: block;
 	}
 
 	.lay{
-		font-size: 2.37vw;
+		font-size: 5vw;
 	}
 	.texthead{
 		font-size: 5vw;
@@ -253,6 +263,22 @@ font-size: 3.5vw;}
 	}
 	.info{
 		font-size: 16px;
+	}
+
+	.request{
+	color: black; 
+	left: 2%; 
+	position: absolute;
+	top: 3%;
+	}
+
+	.request-head{
+		font-size: 6vw;
+	}
+
+	.request-text{
+		font-size: 2.5vw;
+		margin: 0vw;
 	}
 
 .hero-text1{
@@ -280,17 +306,4 @@ font-size: 3.5vw;}
 	font-size: 6vw;
 	top: 25%;
 }
-}
-
-@media only screen and (max-width: 300px) {
-.changelay1{
-		display: none;
-	}
-	.changelay2{
-		display: block;
-	}
-
-	.lay{
-		margin-left: 35%;
-	}
 }

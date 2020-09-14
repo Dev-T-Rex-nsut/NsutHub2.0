@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/NsutHub2.0/static/css/main.1f8654e1.chunk.css",
+    "main.css": "/NsutHub2.0/static/css/main.fae0d930.chunk.css",
     "main.js": "/NsutHub2.0/static/js/main.31eb8db7.chunk.js",
     "main.js.map": "/NsutHub2.0/static/js/main.31eb8db7.chunk.js.map",
     "runtime-main.js": "/NsutHub2.0/static/js/runtime-main.f52a5aa3.js",
@@ -9,10 +9,10 @@
     "static/js/2.8e822e71.chunk.js": "/NsutHub2.0/static/js/2.8e822e71.chunk.js",
     "static/js/2.8e822e71.chunk.js.map": "/NsutHub2.0/static/js/2.8e822e71.chunk.js.map",
     "index.html": "/NsutHub2.0/index.html",
-    "precache-manifest.4144bae5eee0d8e9f0b6a50111e17ca2.js": "/NsutHub2.0/precache-manifest.4144bae5eee0d8e9f0b6a50111e17ca2.js",
+    "precache-manifest.dbd580e31d464a59837a7d70235ebe16.js": "/NsutHub2.0/precache-manifest.dbd580e31d464a59837a7d70235ebe16.js",
     "service-worker.js": "/NsutHub2.0/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/NsutHub2.0/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.1f8654e1.chunk.css.map": "/NsutHub2.0/static/css/main.1f8654e1.chunk.css.map",
+    "static/css/main.fae0d930.chunk.css.map": "/NsutHub2.0/static/css/main.fae0d930.chunk.css.map",
     "static/js/2.8e822e71.chunk.js.LICENSE.txt": "/NsutHub2.0/static/js/2.8e822e71.chunk.js.LICENSE.txt",
     "static/media/background.png": "/NsutHub2.0/static/media/background.f22e214a.png",
     "static/media/background1.png": "/NsutHub2.0/static/media/background1.4c3eccbd.png",
@@ -31,7 +31,7 @@
     "static/js/runtime-main.f52a5aa3.js",
     "static/css/2.4707e12a.chunk.css",
     "static/js/2.8e822e71.chunk.js",
-    "static/css/main.1f8654e1.chunk.css",
+    "static/css/main.fae0d930.chunk.css",
     "static/js/main.31eb8db7.chunk.js"
   ]
 }

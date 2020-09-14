@@ -282,28 +282,33 @@ font-size: 3.5vw;}
 	}
 
 .hero-text1{
-	font-size: 6vw;
+	font-size: 9vw;
 }
 .hero-text2{
-	display: inline-block;
-	font-size: 5.25vw;
+	font-size: 9vw;
 }
+
+.hero-text{
+	display: inline-block;
+	color: black;
+}
+
 .hero-text4{
 	margin:0vw 0vw 1vw 1vw;
-	font-size: 6.25vw;
+	font-size: 9vw;
 }
 .hero-text5{
-	font-size: 2.25vw;
+	font-size: 3vw;
 }
 .hero-text3{
 	display: inline-block;
-	font-size: 2.25vw;
+	font-size: 3vw;
 	
 }
 
 .bottom-left{
-	left: 25%;
+	left: 22.5%;
 	font-size: 6vw;
-	top: 25%;
+	top: 22.5%;
 }
 }

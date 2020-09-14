@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0d747010c356940c58ead9b9d5ef5b22",
+    "revision": "24cd56fa3acdb02f69b0dbba12069a33",
     "url": "/NsutHub2.0/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/NsutHub2.0/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "087a0c3e5f9652d1b9cf",
-    "url": "/NsutHub2.0/static/css/main.50c03140.chunk.css"
+    "revision": "b0322afdad03f94bc2b6",
+    "url": "/NsutHub2.0/static/css/main.bda5befc.chunk.css"
   },
   {
     "revision": "88c67832f64e363ca2e6",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/NsutHub2.0/static/js/2.2ea06dfe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "087a0c3e5f9652d1b9cf",
+    "revision": "b0322afdad03f94bc2b6",
     "url": "/NsutHub2.0/static/js/main.f2a72241.chunk.js"
   },
   {

@@ -96,6 +96,7 @@ body{
   cursor: pointer;
 }
 .secondNav{
+  background-color: rgba(255,255,255,0.5);
   font-size: 1.063rem;
   font-weight: 600;
   display: flex;

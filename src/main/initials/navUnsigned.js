@@ -2,7 +2,7 @@ import React from "react";
 import '../../properties/homepage.css'
 import '../../properties/functions'
 import {toggleMenu, moveRight} from "../../properties/functions";
-import {Route, Link} from "react-router-dom"
+import {Route, Link,BrowserRouter as Router} from "react-router-dom"
 import Signin from "../user/signin"
 import Signup from "../user/signup"
 
@@ -22,8 +22,10 @@ const NavBarU = () => {
         </div>
             <div className="logo" onClick={moveRight}><img className="logoimg" src="https://logoipsum.com/logo/logo-12.svg"/></div>      
             <div className="responsive">
+            <Router>
             <div className="ink"><Link to="/login" ><h2>Sign In</h2></Link></div>
             <div className="ink2"><Link to="/register"><h2>Sign Up</h2></Link></div>
+            </Router>
             </div>      
          </header>
       </div>

@@ -19,7 +19,6 @@ import notes from './img/notes.png';
 import new1 from './img/new.jpg';
 import new2 from './img/new1.jpg';
 import 'aos/dist/aos.css';
-import Footer from "./initials/footer";
 class Home extends React.Component {
 
   constructor(props) {
@@ -62,9 +61,9 @@ class Home extends React.Component {
 		if (window.outerWidth >= 1000) {
 			return ( 
        <main className="moveRt" >
-         <div class="container">
+         <div class="container1">
 	<img src={new1} class="her"/>
-	<h1 class="bottom-left"  >
+	<h1 class="bottom-left1"  >
 	<p class="hero-text1">Welcome</p>
 	<p class="hero-text2">To </p>
 	<b class="hero-text4">NSUT-HUB</b><br/>
@@ -75,7 +74,7 @@ class Home extends React.Component {
 	</div>
 <div class="grid">
 	<div       class="cardmajor">
-		<div  class="card">
+		<div  class="card1">
 		<img src={card1} />
 		<div class="text">
 		<h3 class="texthead">Book Store: </h3>
@@ -86,7 +85,7 @@ class Home extends React.Component {
 	</div>
 	</div>
 	<div      >
-		<div class="card" >
+		<div class="card1" >
 		<img src={card2} />
 		<div class="text">
 		<h3 class="texthead">Student Club: </h3>
@@ -97,7 +96,7 @@ class Home extends React.Component {
 	</div>
 	</div>
 	<div      >
-		<div class="card">
+		<div class="card1">
 		<img src={card3} />
 		<div class="text">
 		<h3 class="texthead">Course links: </h3>
@@ -141,23 +140,12 @@ class Home extends React.Component {
 	<p class="changelay1 lay"     ><b class="extra-heading ">Notes:</b><br/>Simple and easy to understand notes for the perfect preparation. Never go unprepared ever again.<br/><br/>•Get notes of the topics you missed or couldn't understand.<br/>•Notes of every subject available and for every year.<br/></p>
 </div>
 </div>
-<div class="container con-add">
+<div class="container1 con-add">
 <img src={background1} class="her"/>
 <div class="request">
 	<h1 class="request-head">Join NSUT-HUB Support Team</h1>
 	<p class="request-text">All of us know that getting hands on question papers, Notes ,E-Books is a difficult job and on top of it we are short-handed. We will appreciate any help we can get. You can contribute by sending us your notes, E-books, question papers. Small contributions from everyone will help us create the best collection of all the essentials. You can send the content on the Whatsapp group, join now by clicking the button given below.</p>
 </div>
-</div>
-
-<div class="grid2">
-	<p class="footr">©copyright 2020 by Dev. T-Rex.</p>
-	<p class="footr">Logo</p>
-	<p class="footr"><i class="fa fa-facebook-square fa-2x ic" aria-hidden="true"></i>
-<FaFacebookF size={15} class="ic"/>
-<FaGithubAlt size={15} class="ic"/>
-<FaLinkedinIn size={15} class="ic"/>
-<FaInstagramSquare size={15} class="ic" />
-</p>
 </div>
        </main>
    )
@@ -165,9 +153,9 @@ class Home extends React.Component {
 	else {
 			return ( 
        <main className="moveRt" >
-         <div class="container">
+         <div class="container1">
 	<img src={new2} class="her"/>
-	<h1 class="bottom-left"    >
+	<h1 class="bottom-left1"    >
 	<p class="hero-text1  hero-text">Welcome</p>
 	<p class="hero-text2 hero-text">To </p><br/>
 	<b class="hero-text4">NSUT-HUB</b><br/>
@@ -178,7 +166,7 @@ class Home extends React.Component {
 	</div>
 <div class="grid">
 	<div       class="cardmajor">
-		<div  class="card">
+		<div  class="card1">
 		<img src={card1} />
 		<div class="text">
 		<h3 class="texthead">Book Store: </h3>
@@ -189,7 +177,7 @@ class Home extends React.Component {
 	</div>
 	</div>
 	<div      >
-		<div class="card" >
+		<div class="card1" >
 		<img src={card2} />
 		<div class="text">
 		<h3 class="texthead">Student Club: </h3>
@@ -200,7 +188,7 @@ class Home extends React.Component {
 	</div>
 	</div>
 	<div      >
-		<div class="card">
+		<div class="card1">
 		<img src={card3} />
 		<div class="text">
 		<h3 class="texthead">Course links: </h3>
@@ -244,15 +232,13 @@ class Home extends React.Component {
 	<p class="changelay1 lay"     ><b class="extra-heading ">Notes:</b><br/>Simple and easy to understand notes for the perfect preparation. Never go unprepared ever again.<br/><br/>•Get notes of the topics you missed or couldn't understand.<br/>•Notes of every subject available and for every year.<br/></p>
 </div>
 </div>
-<div class="container con-add">
+<div class="container1 con-add">
 <img src={background} class="her"/>
 <div class="request">
 	<h1 class="request-head">Join NSUT-HUB Support Team</h1>
 	<p class="request-text">All of us know that getting hands on question papers, Notes ,E-Books is a difficult job and on top of it we are short-handed. We will appreciate any help we can get. You can contribute by sending us your notes, E-books, question papers. Small contributions from everyone will help us create the best collection of all the essentials. You can send the content on the Whatsapp group, join now by clicking the button given below.</p>
 </div>
 </div>
-
-<Footer/>
        </main>
    )
 			

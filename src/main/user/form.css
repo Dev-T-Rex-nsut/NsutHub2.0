@@ -1,7 +1,34 @@
 .fat{
-	margin-top:10em;
-	margin-bottom:10em;
+	margin-bottom:5.25vw;
+	margin-top: 10vw;
 }
 .sin{
 	width: 7em;
+}
+
+body{
+	background-image: url(./new-tech.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+main{
+	background-color: rgba(0,0,0,0.25)
+}
+
+form{
+	background-color: rgba(255,255,255,0.85);
+	padding: 2vw;
+	border-radius: 1rem;
+}
+
+@media only screen and (max-width: 1000px) {
+body{
+	background-image: url(./new-tech1.jpg);
+}
+}
+@media only screen and (max-width: 500px) {
+body{
+	background-image: url(./new-tech2.jpg);
+}
 }

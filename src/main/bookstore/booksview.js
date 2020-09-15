@@ -10,14 +10,14 @@ class BooksView extends React.Component{
   componentDidMount(){
      const id = this.props.match.params.id; 
      const url = `http://localhost:3000/bookinfo/${id}`
-     this.fetchData(id);
+     this.fetchData(url);
      if (this.state.data.bargainable) {
         this.bargain = "Contact seller to bargain"
     } else {
         this.bargain = "Not Barginable"
     }
     }  
-   fetchData = id =>{
+   fetchData = url =>{
        fetch(url)
          .then(response => response.json)
          .then(json => this.setState({state: json.data}))

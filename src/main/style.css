@@ -1,4 +1,4 @@
-.grid{
+ .grid{
 	display: grid;
 	justify-content: center;
 	grid-template-columns: 30vw 30vw 30vw;
@@ -40,13 +40,13 @@ img{
     border-top-right-radius: 5%;
 }
 
-.card{
+.card1{
 	border-radius: 5%;
 	margin: 2vw; 
 	box-shadow: rgb(209, 209, 213) 0px 5px 15px;
 }
 
-.card:hover{
+.card1:hover{
 	transform: scale(1.05);
 	transition: 0.75s;
 	/*box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;*/
@@ -77,12 +77,12 @@ display: none;
 	 font-size: 1vw;
 }
 
-.container {
+.container1 {
   position: relative;
   color: white;
   background: rgba(0,0,0,0.75);
 }
-.bottom-left {
+.bottom-left1 {
 	font-family: "Sitka Small";
   position: absolute;
   top: 14%;
@@ -197,7 +197,7 @@ display: none;
 }
 
 .request-head{
-	font-size: 3.5vw;
+	font-size: 3.9vw;
 	color: white;
 	text-shadow: 2px 2px black;
 }
@@ -306,7 +306,7 @@ font-size: 3.5vw;}
 	
 }
 
-.bottom-left{
+.bottom-left1{
 	left: 22.5%;
 	font-size: 6vw;
 	top: 22.5%;

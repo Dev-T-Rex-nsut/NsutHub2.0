@@ -167,14 +167,17 @@ body{
 @media screen and (min-width: 720px){
   .responsive{
     display: flex;
-    height: 4.375em;
-    line-height: 43px;
   }
   .ink, .ink2{
    padding: 0 1.25rem; 
-   border: 1px double rgb(165, 195, 252);
+   border: 1px double rgb(170, 192, 235);
    transition: 0.3s;
-   font-size: 0.75rem;
+   height: 100%;
+   align-content: center;
+    }
+   .ink > h2, .ink2>h2{
+       font-size: 1.6rem;
+       padding-top: 15%;
     }
     .ink2{
      background-color: rgba(250, 57, 57, 0.8);

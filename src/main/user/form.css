@@ -27,10 +27,18 @@
 body{
 	background-image: url(./new-tech1.jpg) !important;
 }
+.fat{
+	margin-top: 40%;
+	padding-top: 20%;
+}
+.fat2{
+	padding-top: 10%;
+}
 }
 @media only screen and (max-width: 500px) {
 body{
 	background-image: url(./new-tech2.jpg) !important;
+	overflow: auto;
 }
 }
 

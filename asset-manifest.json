@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/NsutHub2.0/static/css/main.d5971863.chunk.css",
-    "main.js": "/NsutHub2.0/static/js/main.b82013c0.chunk.js",
-    "main.js.map": "/NsutHub2.0/static/js/main.b82013c0.chunk.js.map",
+    "main.css": "/NsutHub2.0/static/css/main.6a52d8a4.chunk.css",
+    "main.js": "/NsutHub2.0/static/js/main.7dd19e23.chunk.js",
+    "main.js.map": "/NsutHub2.0/static/js/main.7dd19e23.chunk.js.map",
     "runtime-main.js": "/NsutHub2.0/static/js/runtime-main.f52a5aa3.js",
     "runtime-main.js.map": "/NsutHub2.0/static/js/runtime-main.f52a5aa3.js.map",
     "static/css/2.1efe2f54.chunk.css": "/NsutHub2.0/static/css/2.1efe2f54.chunk.css",
     "static/js/2.0d536456.chunk.js": "/NsutHub2.0/static/js/2.0d536456.chunk.js",
     "static/js/2.0d536456.chunk.js.map": "/NsutHub2.0/static/js/2.0d536456.chunk.js.map",
     "index.html": "/NsutHub2.0/index.html",
-    "precache-manifest.682448d57b9f4a7bde56edab53ecb79e.js": "/NsutHub2.0/precache-manifest.682448d57b9f4a7bde56edab53ecb79e.js",
+    "precache-manifest.1a1dc050363e88f5b810a3fac39d5c31.js": "/NsutHub2.0/precache-manifest.1a1dc050363e88f5b810a3fac39d5c31.js",
     "service-worker.js": "/NsutHub2.0/service-worker.js",
     "static/css/2.1efe2f54.chunk.css.map": "/NsutHub2.0/static/css/2.1efe2f54.chunk.css.map",
-    "static/css/main.d5971863.chunk.css.map": "/NsutHub2.0/static/css/main.d5971863.chunk.css.map",
+    "static/css/main.6a52d8a4.chunk.css.map": "/NsutHub2.0/static/css/main.6a52d8a4.chunk.css.map",
     "static/js/2.0d536456.chunk.js.LICENSE.txt": "/NsutHub2.0/static/js/2.0d536456.chunk.js.LICENSE.txt",
     "static/media/appdev.png": "/NsutHub2.0/static/media/appdev.9ce8aa20.png",
-    "static/media/background.png": "/NsutHub2.0/static/media/background.550ebd6a.png",
-    "static/media/background1.png": "/NsutHub2.0/static/media/background1.4c3eccbd.png",
+    "static/media/background.png": "/NsutHub2.0/static/media/background.11f2db4f.png",
+    "static/media/background1.png": "/NsutHub2.0/static/media/background1.f22e214a.png",
     "static/media/bash.png": "/NsutHub2.0/static/media/bash.92573b91.png",
     "static/media/bookPlaceholder.jpg": "/NsutHub2.0/static/media/bookPlaceholder.447937d9.jpg",
     "static/media/card1.png": "/NsutHub2.0/static/media/card1.b2609273.png",
@@ -43,7 +43,7 @@
     "static/js/runtime-main.f52a5aa3.js",
     "static/css/2.1efe2f54.chunk.css",
     "static/js/2.0d536456.chunk.js",
-    "static/css/main.d5971863.chunk.css",
-    "static/js/main.b82013c0.chunk.js"
+    "static/css/main.6a52d8a4.chunk.css",
+    "static/js/main.7dd19e23.chunk.js"
   ]
 }

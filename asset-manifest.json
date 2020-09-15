@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/NsutHub2.0/static/css/main.a355a708.chunk.css",
-    "main.js": "/NsutHub2.0/static/js/main.e2a12392.chunk.js",
-    "main.js.map": "/NsutHub2.0/static/js/main.e2a12392.chunk.js.map",
+    "main.css": "/NsutHub2.0/static/css/main.d5971863.chunk.css",
+    "main.js": "/NsutHub2.0/static/js/main.dea0e608.chunk.js",
+    "main.js.map": "/NsutHub2.0/static/js/main.dea0e608.chunk.js.map",
     "runtime-main.js": "/NsutHub2.0/static/js/runtime-main.f52a5aa3.js",
     "runtime-main.js.map": "/NsutHub2.0/static/js/runtime-main.f52a5aa3.js.map",
     "static/css/2.1efe2f54.chunk.css": "/NsutHub2.0/static/css/2.1efe2f54.chunk.css",
-    "static/js/2.07aae792.chunk.js": "/NsutHub2.0/static/js/2.07aae792.chunk.js",
-    "static/js/2.07aae792.chunk.js.map": "/NsutHub2.0/static/js/2.07aae792.chunk.js.map",
+    "static/js/2.0d536456.chunk.js": "/NsutHub2.0/static/js/2.0d536456.chunk.js",
+    "static/js/2.0d536456.chunk.js.map": "/NsutHub2.0/static/js/2.0d536456.chunk.js.map",
     "index.html": "/NsutHub2.0/index.html",
-    "precache-manifest.893bfdd49679e59c36f59d1471a27b6c.js": "/NsutHub2.0/precache-manifest.893bfdd49679e59c36f59d1471a27b6c.js",
+    "precache-manifest.c78d49beacf2c9cb7199fac863d1fc4c.js": "/NsutHub2.0/precache-manifest.c78d49beacf2c9cb7199fac863d1fc4c.js",
     "service-worker.js": "/NsutHub2.0/service-worker.js",
     "static/css/2.1efe2f54.chunk.css.map": "/NsutHub2.0/static/css/2.1efe2f54.chunk.css.map",
-    "static/css/main.a355a708.chunk.css.map": "/NsutHub2.0/static/css/main.a355a708.chunk.css.map",
-    "static/js/2.07aae792.chunk.js.LICENSE.txt": "/NsutHub2.0/static/js/2.07aae792.chunk.js.LICENSE.txt",
+    "static/css/main.d5971863.chunk.css.map": "/NsutHub2.0/static/css/main.d5971863.chunk.css.map",
+    "static/js/2.0d536456.chunk.js.LICENSE.txt": "/NsutHub2.0/static/js/2.0d536456.chunk.js.LICENSE.txt",
     "static/media/appdev.png": "/NsutHub2.0/static/media/appdev.9ce8aa20.png",
     "static/media/background.png": "/NsutHub2.0/static/media/background.550ebd6a.png",
     "static/media/background1.png": "/NsutHub2.0/static/media/background1.4c3eccbd.png",
@@ -42,8 +42,8 @@
   "entrypoints": [
     "static/js/runtime-main.f52a5aa3.js",
     "static/css/2.1efe2f54.chunk.css",
-    "static/js/2.07aae792.chunk.js",
-    "static/css/main.a355a708.chunk.css",
-    "static/js/main.e2a12392.chunk.js"
+    "static/js/2.0d536456.chunk.js",
+    "static/css/main.d5971863.chunk.css",
+    "static/js/main.dea0e608.chunk.js"
   ]
 }

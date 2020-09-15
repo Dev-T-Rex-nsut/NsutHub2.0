@@ -1,7 +1,6 @@
 import React from 'react';
 import NavBarU from './main/initials/navUnsigned'
 import Home from './main/home'
-import Footer from './main/initials/footer'
 import Sidenav from './main/initials/sidenav';
 import "./properties/homepage.css"
 import { moveRight } from './properties/functions';
@@ -28,7 +27,6 @@ function App() {
           <Route exact path="/freecourses" component={FreeCourse} />
           <Route exact path="/events" component={EventHub} />
           </Router>
-        <Footer />
         </div>
     </div>
   );

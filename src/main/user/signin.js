@@ -1,5 +1,6 @@
 import React from 'react';
 import './form.css'
+import Footer from '../initials/footer'
 import { store } from 'react-notifications-component';
 class Signin extends React.Component {
   
@@ -45,8 +46,8 @@ class Signin extends React.Component {
     const {onroutechange} = this.props;
       return(
       <div className="fat moveRt">
-      <main className="br4 ba dark-gray b--black-10 mv4 w-70-m w-30-l mw7 shadow-3 center pa4 black-80">
-          <form className="measure center">
+      <main className="main1 br4 ba dark-gray b--black-10 w-70-m w-30-l mw7 shadow-3 center pa3 black-80">
+          <form className="measure center form">
             <fieldset id="sign_up" class="ba b--transparent ph0 mh0">
               <legend className="f4 fw6 ph0 mh0">Sign In</legend>
               <div className="mt3">
@@ -72,6 +73,7 @@ class Signin extends React.Component {
             </div>
           </form>
         </main>
+        <Footer/>
       </div>
   );
   }

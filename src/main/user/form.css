@@ -1,34 +1,48 @@
 .fat{
-	margin-bottom:5.25vw;
-	margin-top: 10vw;
+	margin-top: 4.75vw;
+	padding-top: 6vw;
 }
 .sin{
 	width: 7em;
 }
 
-body{
-	background-image: url(./new-tech.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+#root{
+	background-image: url(./new-tech.jpg) !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
 }
 
-main{
-	background-color: rgba(0,0,0,0.25)
+.main1{
+	background-color: rgba(0,0,0,0.25);
+	margin-bottom: 6vw;
 }
 
-form{
-	background-color: rgba(255,255,255,0.85);
-	padding: 2vw;
-	border-radius: 1rem;
+.form{
+	background-color: rgba(255,255,255,0.85) !important;
+	padding: 2vw !important;
+	border-radius: 1rem !important;
 }
 
 @media only screen and (max-width: 1000px) {
 body{
-	background-image: url(./new-tech1.jpg);
+	background-image: url(./new-tech1.jpg) !important;
 }
 }
 @media only screen and (max-width: 500px) {
 body{
-	background-image: url(./new-tech2.jpg);
+	background-image: url(./new-tech2.jpg) !important;
+}
+}
+
+@media screen and (max-width: 60em) and (min-width: 25em)
+{
+  .fat{
+	margin-top: 10.75vw;
+}
+	.w-70-m {
+    width: 90%;
+}
+.pa4{
+	padding: 1rem;
 }
 }

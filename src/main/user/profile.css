@@ -1,0 +1,219 @@
+.mgh {
+    margin-left: 150px;
+    margin-top: 30px;
+   }
+   .mg {
+    margin: 50px 50px 50px 100px;
+   }
+   .eml, .pno, .userN {
+    margin-left: 25%;
+    font-weight: 500;
+   }
+   .butn {
+     background-color: white;
+     border: 2px solid black;
+     color: black;
+     padding: 15px 22px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     border-radius: 10px;
+     margin: 10px 0px 10px 100px;
+   }
+   .butn:hover {
+     background-color: black;
+     color: white;
+   }
+   .button1 {
+     margin-right: 50px;
+     margin-left: 250px;
+     background-color: white;
+     color: black;
+   }
+   .sidenavPro {
+     height: 100%;
+     width: 220px;
+     position: fixed;
+     z-index: 1;
+     top: 0;
+     left: 0;
+     background-color: black;
+     overflow-x: hidden;
+     padding-top: 20px;
+   }
+   
+   .sidenavPro a {
+   padding: 20px 20px 0px 6px;
+   /* margin:px 150px px 5px; */
+   margin-left: 10px;
+   text-decoration: none;
+   font-size: 20px;
+   color: white;
+   display: inline-block;
+   border: none;
+   background: none;
+   width: 95%;
+   text-align: left;
+   cursor: pointer;
+   outline: none;
+   }
+   
+   /* On mouse-over */
+   .sidenavPro a:hover {
+   color: grey;
+   }
+   .edit {
+   margin-top: 80px;
+   }
+   .edit1 {
+   margin-top: 15px;
+   }
+   
+   .bossForm {
+   margin-left: 140px; /* Same width as the sidebar + left position in px */
+   font-size: 20px; /* Increased text to enable scrolling */
+   padding: 0px 10px;
+   }
+   
+   @media (max-width: 900px) {
+   .mgh, .mg {
+       margin: 20px 0px 20px -50px;
+   }
+   .pno, .eml, .userN {
+       margin-left: 1px;
+   }
+   .butn {
+       margin: 20px 0px 0px -55px;
+       font-size: 15px;
+   }
+   .button1 {
+       margin: 10px 0px 0px 8px;
+   }
+   .sidenavPro {
+       padding-top: 15px;
+       width: 90px;
+   }
+   .sidenavPro a {
+       font-size: 18px;
+       margin-left: 4px;
+    }
+   }
+   .App {
+    font-family: sans-serif;
+    /* text-align: center; */
+  }
+  
+  h1 {
+    margin-left: 150px;
+    margin-top: 30px;
+  }
+  h2,
+  h4 {
+    margin: 50px 50px 50px 100px;
+  }
+  span {
+    margin-left: 25%;
+    font-weight: 500;
+  }
+  .btn {
+    background-color: black;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 6px 15px;
+    cursor: pointer;
+    font-size: 10px;
+  }
+  
+  
+  .btn-2 {
+    background-color: black;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 6px 15px;
+    cursor: pointer;
+    font-size: 10px;
+  }
+  
+  .button:hover {
+    background-color: black;
+    color: black;
+  }
+  .button {
+    margin-right: 50px;
+    margin-left: 250px;
+    background-color: white;
+    color: black;
+  }
+  .sidenav {
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 20px 20px 0px 6px;
+    /* margin:px 150px px 5px; */
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    border: none;
+    background: none;
+    width: 95%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover {
+    color: grey;
+  }
+  .edit {
+    margin-top: 80px;
+  }
+  .edit1 {
+    margin-top: 15px;
+  }
+  
+  .main {
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  @media (max-width: 900px) {
+    h1,
+    h2,
+    h4 {
+      margin: 20px 0px 20px -50px;
+    }
+    span {
+      margin-left: 1px;
+    }
+    .button {
+      margin: 20px 0px 0px -55px;
+      font-size: 15px;
+    }
+    .button1 {
+      margin: 10px 0px 0px 8px;
+    }
+    .sidenav {
+      padding-top: 15px;
+      width: 90px;
+    }
+    .sidenav a {
+      font-size: 18px;
+      margin-left: 4px;
+    }
+  }

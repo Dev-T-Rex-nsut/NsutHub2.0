@@ -29,6 +29,8 @@
 
 .her{
 	border-radius: 0%;
+	opacity: 0.5;
+	height: 100%;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -40,12 +42,10 @@
 	.grid{
 	display: grid;
 	justify-content: center;
-	grid-template-columns: 40vw 40vw;
+	grid-template-columns: 95vw;
 }
 
 	.cardmajor{
-		  grid-column-start: 1;
-  		grid-column-end: 3;
   		padding: 2vw;
 
 	}
@@ -61,11 +61,9 @@
 		display: block;
 	}
 
-
-
 }
 
-img{
+.heroImg{
 	width: 100%;
 	border-top-left-radius: 5%;
     border-top-right-radius: 5%;
@@ -111,6 +109,7 @@ display: none;
 .container {
   position: relative;
   color: white;
+  background: rgba(0,0,0,0.75);
 }
 .bottom-left {
 	font-family: "Sitka Small";
@@ -131,7 +130,12 @@ display: none;
 	  color: black; 
 	  margin: 0.85vw;
 }
-
+.hero-text5{
+	font-size: 1.5vw; 
+	font-weight: 1; 
+	margin-left: 0.95vw; 
+	margin-bottom: 0em;
+}
 .hero-text4{
 	margin: 0.85vw;
 }
@@ -197,11 +201,9 @@ display: none;
 }
 
 .lay{
-	 padding: 2vw; 
-	 text-align: center; 
-	 font-size: 1.25vw; 
+	 padding: 2vw;  
+	 font-size: 1.5vw; 
 	 color: black; 
-	 align-self: center;
 }
 
 .ic{
@@ -219,11 +221,15 @@ display: none;
 
 .request-head{
 	font-size: 3.5vw;
+	color: white;
+	text-shadow: 2px 2px black;
 }
 
 .request-text{
 	margin: 2.75vw;
-	font-size: 1vw;
+	font-size: 1.5vw;
+	color: white;
+	text-shadow: 2px 2px black;
 }
 
 .con-add{
@@ -231,7 +237,7 @@ display: none;
 	margin: 0px;
 }
 .extra-heading{
-font-size: 4.5vw;}
+font-size: 3vw;}
 
 .extra-img{
 	padding:  2vw; 
@@ -241,3 +247,163 @@ font-size: 4.5vw;}
 .notop{
 	margin-top: 0em;
 }
+
+@media only screen and (max-width: 720px){
+	.hidemobile{
+		display: none;
+	}
+}
+@media only screen and (min-width: 720px){
+	.hideDesktop{
+		display: none;
+	}
+	.grid{
+		display: grid;
+		justify-content: center;
+		grid-template-columns: 82.5vw;
+		}
+	
+		.grid1{
+		display: block;
+		}
+	
+		.extra-heading{
+		font-size: 7vw;}
+	
+		.changelay1{
+			display: none;
+		}
+		.changelay2{
+			display: block;
+		}
+	
+		.lay{
+			font-size: 5vw;
+		}
+		.texthead{
+			font-size: 5vw;
+			margin: 0.25vw;
+		}
+		
+		.textdis{
+		
+			 font-size: 3vw;
+		}
+		.instruct{
+			font-size:16px;
+		}
+		.info{
+			font-size: 16px;
+		}
+	
+		.request{
+		color: black; 
+		left: 3%; 
+		position: absolute;
+		top: 3%;
+		}
+	
+		.request-head{
+			font-size: 6vw;
+		}
+	
+		.request-text{
+			font-size: 2.5vw;
+			margin: 0vw;
+		}
+	
+	.hero-text1{
+		font-size: 9vw;
+	}
+	.hero-text2{
+		font-size: 9vw;
+	}
+	
+	.hero-text{
+		display: inline-block;
+		color: black;
+	}
+	
+	.hero-text4{
+		margin:0vw 0vw 1vw 1vw;
+		font-size: 9vw;
+	}
+	.hero-text5{
+		font-size: 3vw;
+	}
+	.hero-text3{
+		display: inline-block;
+		font-size: 3vw;
+		
+	}
+	
+	.bottom-left{
+		left: 22.5%;
+		font-size: 6vw;
+		top: 22.5%;
+	}
+}
+.hideDesktop{
+   text-align: center;
+}
+.hideDesktop > h1{
+	margin: 0;
+	font-weight: bold;
+	padding: 5px;
+}
+.hideDesktop > h3{
+	margin: 5px;
+}
+.cardborder{
+	background: linear-gradient(rgb(245, 245, 245), rgb(255, 250, 250)); 
+	
+	border: 2px solid gray;
+	margin: 15px;
+	height: 35vw;
+	border-radius: 10px;
+}
+.flipcard{
+	display: flex;
+}
+.cardtext{
+	vertical-align: middle;
+	margin: 0 7px;
+}
+.cardtext > h2{
+  font-size: 5.5vw;
+}
+.cardtext > h4{
+	font-size: 3.5vw;
+}
+.cardimg{
+	width: 40vw;
+	height: inherit;
+	border-radius: 5px;
+}
+.flipblock{
+	display: none;
+}
+.flipblock > p{
+	font-size: 7vw;
+}
+.flipclose{
+	width: 100px;
+	line-height: 8rem;
+	display: flex;
+	color: violet;
+}
+.flipInit{
+	margin-left: 2rem;
+	align-items: flex-end;
+	vertical-align: middle;
+	line-height: 8rem;
+	color: indigo;
+}
+.cardslist{
+  margin: 30px 0;
+}
+.App {
+  font-family: sans-serif;
+/* text-align: center; */
+}
+  

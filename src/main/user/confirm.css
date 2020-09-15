@@ -1,0 +1,8 @@
+/*Show and hide*/
+.show {
+	display: inline-block;
+}
+
+.hide {
+	display: none;
+}

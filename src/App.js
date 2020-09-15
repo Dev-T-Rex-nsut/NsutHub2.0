@@ -1,7 +1,7 @@
 import React from 'react';
-import NavBarU from './initials/navUnsigned'
+import NavBarU from './main/initials/navUnsigned'
 import Home from './main/home'
-import Sidenav from './initials/sidenav';
+import Sidenav from './main/initials/sidenav';
 import "./properties/homepage.css"
 import { moveRight } from './properties/functions';
 

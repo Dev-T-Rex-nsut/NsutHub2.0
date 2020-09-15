@@ -19,6 +19,7 @@ import notes from './img/notes.png';
 import new1 from './img/new.jpg';
 import new2 from './img/new1.jpg';
 import 'aos/dist/aos.css';
+import Footer from "./initials/footer";
 class Home extends React.Component {
 
   constructor(props) {
@@ -251,16 +252,7 @@ class Home extends React.Component {
 </div>
 </div>
 
-<div class="grid2">
-	<p class="footr">©copyright 2020 by Dev. T-Rex.</p>
-	<p class="footr">Logo</p>
-	<p class="footr"><i class="fa fa-facebook-square fa-2x ic" aria-hidden="true"></i>
-<FaFacebookF size={15} class="ic"/>
-<FaGithubAlt size={15} class="ic"/>
-<FaLinkedinIn size={15} class="ic"/>
-<FaInstagramSquare size={15} class="ic" />
-</p>
-</div>
+<Footer/>
        </main>
    )
 			

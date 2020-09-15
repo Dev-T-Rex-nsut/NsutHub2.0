@@ -1,0 +1,56 @@
+.results-container {
+	display: flex;
+	flex-flow: wrap;
+}
+
+.result-item {
+	position: relative;
+	padding: 16px;
+	border: 1px solid #898989;
+	margin: 16px;
+	text-align: center;
+	min-width: 200px;
+	box-shadow: 2px 2px 2px #898989;
+}
+.search-loading {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+/*Show and hide*/
+.show {
+	display: inline-block;
+}
+
+.hide {
+	display: none;
+}
+.pgTitle{
+	display: flex;
+	margin: auto;
+	padding: auto;
+}
+.tle{
+	font-size: large;
+	font-weight: bold;
+	align-self: center;
+}
+.srch{
+	align-content: flex-end;
+	border-radius: 7px;
+}
+.fixDes{
+	position: fixed;
+	z-index: 1;
+	background-color: rgb(56, 56, 56);
+}
+.procard{
+  border-radius: 15px;
+  align-content: center;
+}
+.proOut .proIcn{
+   color: rgb(189, 186, 186);
+   font-size: medium;
+}

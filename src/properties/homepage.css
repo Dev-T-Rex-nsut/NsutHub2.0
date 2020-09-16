@@ -105,7 +105,7 @@ body{
     top: 0%;
   z-index: 10;
   width: 100%;
-  height: 4.375em;
+  height: 3.5em;
   border-bottom: 1.5px solid darkgray;
   box-shadow: 1px 1px darkgray;
 }
@@ -122,14 +122,16 @@ body{
   display: inline-block;
   width: 0.938rem;
   height: 0.813rem;
+  align-self: center;
 }
 .bt-menu {
   min-width: 7.063rem;
-  height: 4.375em;
+  height: 3.5em;
   border-right: 2px solid #e3e4e4;
   cursor: pointer;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
+  display: flex;
 } 
 .ico-menu .bar {
   position: absolute;
@@ -140,7 +142,6 @@ body{
   overflow: hidden;
 }
 .bt-menu .ico-menu {
-  top: -1px;
   margin-right: 0.625rem;
   vertical-align: middle;
 }
@@ -155,11 +156,10 @@ body{
 }
 .tab{
   display: inline-block;
-  margin: 0.375rem 0.313rem 0 0;
-  padding: 0.313em 0.626em;
+  align-self: center;
 }
 .logo{
-  width: 9rem;
+  width: 6.5rem;
   height: auto;
   margin: auto;
   margin-top: 0;
@@ -180,16 +180,16 @@ body{
        padding-top: 15%;
     }
     .ink2{
-     background-color: rgba(250, 57, 57, 0.8);
-     color: rgb(20, 20, 20);
+     background-color: #49c5b6;
+     color: rgb(250, 250, 250);
    }
    .ink:hover{
      color: rgb(49, 48, 48);
      background-color: rgb(209, 209, 209);
    }
    .ink2:hover{
-     background-color: rgba(255, 0, 0, 0.8);
-     color: rgb(255, 255, 255);
+     background-color: rgba(255, 255, 255, 0.8);
+     color: black;
    }
 }
 @media screen and (max-width: 720px){

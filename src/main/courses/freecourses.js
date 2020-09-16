@@ -20,34 +20,34 @@ import coursesheader from "../img/coursesheader.png"
           <div className="empty"></div>
            <div className="sup"> Choose your courses</div>
            <div className="section group">
-         	     <div className="col span_1_of_3">
+         	     <div className="span_1_of_3">
                   <a href="#web">
          	          <img src={web} className="courim"></img>
                   </a>     
          	     </div>
-         	     <div className="col span_1_of_3">
+         	     <div className="span_1_of_3">
                    <a href="#app">
                      <img src={app} className="courim"></img>
                    </a>
          	     </div>
-         	     <div className="col span_1_of_3">
+         	     <div className="span_1_of_3">
                    <a href="#mlaidl">
                      <img src={mldl} className="courim"></img>
                    </a>  
          	     </div>
            </div>
            <div className="section group">
-	          <div className="col span_1_of_3">
+	          <div className="span_1_of_3">
                  <a href="#algo"> 
           	       <img src={lang} className="courim"></img>
                  </a>
           	  </div>
-          	  <div className="col span_1_of_3">
+          	  <div className="span_1_of_3">
                  <a href="#bash">
                   <img src={linux} className="courim"></img>
                  </a>  
           	  </div>
-          	  <div className="col span_1_of_3"> 
+          	  <div className="span_1_of_3"> 
                 <a href="#other">
                   <img src={other} className="courim"></img>
                 </a>

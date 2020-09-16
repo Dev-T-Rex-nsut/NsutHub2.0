@@ -1,0 +1,177 @@
+.dnds{
+   display: block;
+}
+.sidenav {
+  height: 105.7%;
+  width: 200px;
+  position: absolute;
+  margin-top: 4.5%;
+  top: 0;
+  left: 0;
+  background-color: #00ffff;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  margin:10px 1005px 0px 5px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #414040;
+  display: inline-block;
+  border: none;
+  background: none;
+  width:95%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #ffe8e8;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px;
+  font-size: 20px; 
+  padding: 0px 10px;
+}
+
+.active {
+  background-color: red;
+  color: white;
+}
+
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+  margin: -10px 5px 0px 5px;
+}
+
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+@media (max-width: 900px){
+  .sidenav{
+    text-align: center;
+    float: none;
+  }
+.main{
+font-size:80px;
+ 
+  }
+}
+.row-header {
+  margin: 0px auto;
+  padding: 0px;
+}
+
+.row-content {
+  border-bottom: 1px ridge;
+  min-height: 400px;
+  width: 85%;
+}
+.row{
+ text-align: center;
+ position: relative;
+ padding-top: 5%;
+ padding-left: 25%;
+}
+.table{
+  left: 15%;
+  align-self: start;
+}
+.footer {
+  background-color: #d1c4e9;
+  margin: 0px auto;
+  padding: 20px 0px 20px 0px;
+}
+
+.jumbotron {
+  padding: 70px 30px 70px 30px;
+  margin: 0px auto;
+  background: #9575cd;
+  color: floralwhite;
+}
+
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f;
+}
+body {
+  padding: 50px 0px 0px 0px;
+  
+}
+
+.navbar-dark {
+  background-color: #512da8;
+}
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+.carousel {
+  background: #512da8;
+}
+
+.carousel-item {
+  height: 300px;
+}
+
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
+#carouselButton {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
+}
+.modal-header {
+  background-color: #512da8;
+  color: floralwhite;
+}
+.modal-body {
+  background-color: #9575cd;
+}
+.close {
+  color: floralwhite;
+}
+
+
+.btn {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 6px 15px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: green;
+}

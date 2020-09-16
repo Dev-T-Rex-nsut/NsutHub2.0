@@ -233,6 +233,11 @@ font-size: 3.5vw;}
 .notop{
 	margin-top: 0em;
 }
+@media only screen and (min-width: 1000px){
+	.container1{
+		margin-top: 0.8%;
+	}
+}
 
 @media only screen and (max-width: 1000px) {
 	.grid{

@@ -12,6 +12,7 @@ import Societyhub from "./main/eventsAndSociety/societyhub"
 import Signup from "./main/user/signup"
 import Signin from "./main/user/signin"
 import 'tachyons'
+import Downloads from './main/ebooks/bookDownload';
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
           <Route exact path="/books" component={Signup} />
           <Route exact path="/freecourses" component={FreeCourse} />
           <Route exact path="/events" component={EventHub} />
+          <Route exact path="/society" component={Societyhub} />
+          <Route exact path="/downloads" component={Downloads} />
         </div>
     </div>
     </Router>

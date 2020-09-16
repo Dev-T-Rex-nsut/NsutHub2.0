@@ -20,6 +20,9 @@ import notes from './img/notes.png';
 import new1 from './img/new.jpg';
 import new2 from './img/new1.jpg';
 import 'aos/dist/aos.css';
+import {Link} from "react-router-dom";
+import Downloads from "./ebooks/bookDownload";
+
 class Home extends React.Component {
 
   constructor(props) {
@@ -127,17 +130,17 @@ class Home extends React.Component {
 	</div>
 	<p class="changelay2 lay"      ><b class="extra-heading ">Event hub:</b><br/>Never miss an event ever again. One quick look at The Event Hub and you are good to go.<br/><br/>•date and timing of every event<br/>•Name of the society hosting it<br/>•Participation forms/requirements (if any)<br/></p>
 	<div class="extra-img"      >
-	<img  src={event} width="100%;" class ="extra" />
+	<Link to="/events"><img  src={event} width="100%;" class ="extra" /></Link>
 	</div>
 	<p class="changelay1 lay"      ><b class="extra-heading ">Event hub:</b><br/>Never miss an event ever again. One quick look at The Event Hub and you are good to go.<br/><br/>•date and timing of every event<br/>•Name of the society hosting it<br/>•Participation forms/requirements (if any)<br/></p>
 	<p class="lay"      ><b class="extra-heading ">Society hub:</b><br/>Looking for a particular society or just want to explore your options? Our Society Hub has got you covered.<br/><br/>•information about every society<br/>•their forms and requirements to join<br/>•contact details</p>
 	<div class="extra-img"     >
-	<img  src={society} width="100%;" class ="extra" />
+	<Link to="/society"><img  src={society} width="100%;" class ="extra" /></Link>
 	</div>
 	<p class="changelay2 lay"     ><b class="extra-heading ">Notes:</b><br/>Simple and easy to understand notes for the perfect preparation. Never go unprepared ever again.<br/><br/>•Get notes of the topics you missed or couldn't understand.<br/>•Notes of every subject available and for every year.<br/></p>
 	<div class="extra-img"      >
-	<img  src={notes} width="100%;" class ="extra" />
-	</div>
+	     <Link to="/downloads"><img  src={notes} width="100%;" class ="extra" /></Link>
+    </div>
 	<p class="changelay1 lay"     ><b class="extra-heading ">Notes:</b><br/>Simple and easy to understand notes for the perfect preparation. Never go unprepared ever again.<br/><br/>•Get notes of the topics you missed or couldn't understand.<br/>•Notes of every subject available and for every year.<br/></p>
 </div>
 </div>
@@ -220,17 +223,18 @@ class Home extends React.Component {
 	</div>
 	<p class="changelay2 lay"      ><b class="extra-heading ">Event hub:</b><br/>Never miss an event ever again. One quick look at The Event Hub and you are good to go.<br/><br/>•date and timing of every event<br/>•Name of the society hosting it<br/>•Participation forms/requirements (if any)<br/></p>
 	<div class="extra-img"      >
-	<img  src={event} width="100%;" class ="extra" />
+	<Link to="/events"><img  src={event} width="100%;" class ="extra" /></Link>
 	</div>
 	<p class="changelay1 lay"      ><b class="extra-heading ">Event hub:</b><br/>Never miss an event ever again. One quick look at The Event Hub and you are good to go.<br/><br/>•date and timing of every event<br/>•Name of the society hosting it<br/>•Participation forms/requirements (if any)<br/></p>
 	<p class="lay"      ><b class="extra-heading ">Society hub:</b><br/>Looking for a particular society or just want to explore your options? Our Society Hub has got you covered.<br/><br/>•information about every society<br/>•their forms and requirements to join<br/>•contact details</p>
 	<div class="extra-img"     >
-	<img  src={society} width="100%;" class ="extra" />
+	<Link to="/society"><img  src={society} width="100%;" class ="extra" /></Link>
 	</div>
 	<p class="changelay2 lay"     ><b class="extra-heading ">Notes:</b><br/>Simple and easy to understand notes for the perfect preparation. Never go unprepared ever again.<br/><br/>•Get notes of the topics you missed or couldn't understand.<br/>•Notes of every subject available and for every year.<br/></p>
-	<div class="extra-img"      >
-	<img  src={notes} width="100%;" class ="extra" />
-	</div>
+	
+		<div class="extra-img"      >
+		<Link to="/downloads" ><img  src={notes} width="100%;" class ="extra" /></Link>
+		</div>
 	<p class="changelay1 lay"     ><b class="extra-heading ">Notes:</b><br/>Simple and easy to understand notes for the perfect preparation. Never go unprepared ever again.<br/><br/>•Get notes of the topics you missed or couldn't understand.<br/>•Notes of every subject available and for every year.<br/></p>
 </div>
 </div>

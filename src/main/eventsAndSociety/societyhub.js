@@ -56,7 +56,7 @@ const Societyhub = () => {
                 <Grid container>
                   <ScrollView horizontal={true} indicatorStyle="black">
                     <Grid item>
-                      <img
+                      <img class="society-img"
                         src={image}
                         width="200px"
                         alt="sample"
@@ -70,7 +70,8 @@ const Societyhub = () => {
                       </Typography>
                     </Grid>
                     <Grid item>
-                      <img
+                      <img 
+                        class="society-img"
                         src={image}
                         width="200px"
                         alt="sample"
@@ -84,7 +85,7 @@ const Societyhub = () => {
                       </Typography>
                     </Grid>
                     <Grid item>
-                      <img
+                      <img class="society-img"
                         src={image}
                         width="200px"
                         alt="sample"
@@ -98,7 +99,7 @@ const Societyhub = () => {
                       </Typography>
                     </Grid>
                     <Grid item>
-                      <img
+                      <img class="society-img"
                         src={image}
                         width="200px"
                         alt="sample"
@@ -112,7 +113,7 @@ const Societyhub = () => {
                       </Typography>
                     </Grid>
                     <Grid item>
-                      <img
+                      <img class="society-img"
                         src={image}
                         width="200px"
                         alt="sample"
@@ -126,7 +127,7 @@ const Societyhub = () => {
                       </Typography>
                     </Grid>
                     <Grid item>
-                      <img
+                      <img class="society-img"
                         src={image}
                         width="200px"
                         alt="sample"
@@ -161,7 +162,7 @@ const Societyhub = () => {
                 </Grid>
                 <Grid container>
                   <Grid item>
-                    <img
+                    <img class="society-img"
                       src={image}
                       width="200px"
                       alt="sample"
@@ -175,7 +176,7 @@ const Societyhub = () => {
                     </Typography>
                   </Grid>
                   <Grid item>
-                    <img
+                    <img class="society-img"
                       src={image}
                       width="200px"
                       alt="sample"
@@ -189,7 +190,7 @@ const Societyhub = () => {
                     </Typography>
                   </Grid>
                   <Grid item>
-                    <img
+                    <img class="society-img"
                       src={image}
                       width="200px"
                       alt="sample"
@@ -223,7 +224,7 @@ const Societyhub = () => {
                 </Grid>
                 <Grid container>
                   <Grid item>
-                    <img
+                    <img class="society-img"
                       src={image}
                       width="200px"
                       alt="sample"
@@ -237,7 +238,7 @@ const Societyhub = () => {
                     </Typography>
                   </Grid>
                   <Grid item>
-                    <img
+                    <img class="society-img"
                       src={image}
                       width="200px"
                       alt="sample"
@@ -251,7 +252,7 @@ const Societyhub = () => {
                     </Typography>
                   </Grid>
                   <Grid item>
-                    <img
+                    <img class="society-img"
                       src={image}
                       width="200px"
                       alt="sample"

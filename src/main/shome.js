@@ -23,7 +23,7 @@ import 'aos/dist/aos.css';
 import {Link} from "react-router-dom";
 import Downloads from "./ebooks/bookDownload";
 
-class Home extends React.Component {
+class SHome extends React.Component {
 
   constructor(props) {
         super(props);
@@ -262,4 +262,4 @@ class Home extends React.Component {
 		}
 }
 
-export default Home
+export default SHome

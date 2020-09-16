@@ -40,7 +40,9 @@ class Signup extends React.Component {
 
 
   onSubmit = () =>{
-  if (this.state.SignUpPassword === this.state.SignUpconfirmPassword && this.state.SignUpPassword.length >= 8) {
+    var endid = this.state.SignUpEmail.split("@")
+    if (endid[1] === "nsut.ac.in" || endid[1] === "nsit.ac.in") {
+        if (this.state.SignUpPassword === this.state.SignUpconfirmPassword && this.state.SignUpPassword.length >= 8) {
     fetch('http://localhost:3000/signup',{
       method:'post',
       headers:{'Content-Type':'application/json'},
@@ -54,8 +56,7 @@ class Signup extends React.Component {
     })
     .then(response => response.json())
     .then(user =>{ 
-      this.props.loaduser(user);
-      this.props.onroutechange('homein');
+      alert("Check the Email:"+user.email+" for Verfication")
     })
   }
   else if (this.state.SignUpPassword.length <= 8) {
@@ -64,6 +65,10 @@ class Signup extends React.Component {
   else{
       {{alert("Password and Confirm Password are mismaching")}}
   }
+    }
+    else{
+      alert("Please use Nsut or Nsit ID for Registration")
+    }
   }
 
 

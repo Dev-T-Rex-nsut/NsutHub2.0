@@ -6,7 +6,7 @@ import { FaDownload } from "react-icons/fa";
 import { FaAngleDown } from 'react-icons/fa';
 import DropdownButton from 'react-bootstrap/DropdownButton'
 
-class BookDownloads extends React.Component{ 
+class QuestionDownloads extends React.Component{ 
 
 search = (event) =>{
   console.log(event.target.value)
@@ -34,7 +34,7 @@ render(){
         <div className="dnds moveRt">
         <div class="solving">
             <div class="col-12">
-                <h2 style={{color:"whitesmoke"}}>Books</h2>
+                <h2 style={{color:"whitesmoke"}}>Question Papers</h2>
             </div>
 
             <div class="col-md-12 col-sm-6"></div>
@@ -144,4 +144,4 @@ render(){
   }
 }
 
-export default BookDownloads
+export default QuestionDownloads

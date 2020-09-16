@@ -2,11 +2,14 @@ import React from 'react';
 import './form.css'
 import Footer from '../initials/footer'
 import { store } from 'react-notifications-component';
+import { Redirect } from "react-router-dom";
+
 class Signin extends React.Component {
   
     constructor(props) {
         super(props);
         this.state ={
+      redirect:false,
             SignInEmail: '',
             SignInPassword:''
         }
@@ -18,7 +21,6 @@ class Signin extends React.Component {
   onPasswordChange = (event) =>{
     this.setState({SignInPassword: event.target.value})
   }
-
 
   onSubmit = () =>{
     var a =0;
@@ -33,8 +35,8 @@ class Signin extends React.Component {
     .then(response => response.json())
     .then(user =>{
       if (user.email) {
-      this.props.loaduser(user);
-      this.props.onroutechange('homein')
+      this.props.loaduser(user)
+      this.props.signed(true)
       }
       else{
         {{alert("Email or password is in Invalid")}}
@@ -44,6 +46,10 @@ class Signin extends React.Component {
 
   render(){
     const {onroutechange} = this.props;
+    if (this.state.redirect) {
+      return(<Redirect to="/" />);
+    }
+    else{
       return(
       <div className="fat moveRt">
       <main className="main1 br4 ba dark-gray b--black-10 w-70-m w-30-l mw7 shadow-3 center pa3 black-80">
@@ -75,7 +81,7 @@ class Signin extends React.Component {
         </main>
         <Footer/>
       </div>
-  );
+  );}
   }
 }
 

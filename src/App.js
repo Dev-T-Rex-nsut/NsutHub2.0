@@ -15,20 +15,20 @@ import 'tachyons'
 
 function App() {
   return (
+    <Router>
     <div className="App">
         <Sidenav/>
         <NavBarU/> 
         <div className="stick" onClick={moveRight}> 
-          <Router>
           <Route exact path="/" component={Home} />
           <Route exact path="/login" component={Signin} />
           <Route exact path="/register" component={Signup} />
           <Route exact path="/books" component={Signup} />
           <Route exact path="/freecourses" component={FreeCourse} />
           <Route exact path="/events" component={EventHub} />
-          </Router>
         </div>
     </div>
+    </Router>
   );
 }
 

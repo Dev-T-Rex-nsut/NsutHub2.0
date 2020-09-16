@@ -1,7 +1,7 @@
 import React from "react"
 import {moveRight} from "../../properties/functions"
 import "../../properties/functions"
-import {Link, Route,BrowserRouter as Router} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 const Sidenav = () => {
     return (
@@ -13,8 +13,7 @@ const Sidenav = () => {
            </div>
        </div>  
        <div className ="linksCol">
-       <Router>
-         <div className ="linkhover choosen"><Link path="/" className="links"> Home </Link></div>
+         <div className ="linkhover choosen"><Link to="/" className="links"> Home </Link></div>
          <div className ="linkhover"><Link to="/register" className="links"> SignUp </Link></div>
          <div className ="linkhover"><Link to="/login" className="links"> SignIn </Link></div> 
          <div className ="linkhover"><Link to="/joinus" className="links"> Join Us </Link></div>
@@ -23,7 +22,6 @@ const Sidenav = () => {
          <div className ="linkhover"><Link to="/events" className="links"> Events </Link></div>
          <div className ="spaceBox"></div>
          <div className ="lnk"><span><a href="#" className="links2"> About Us </a><a href="#" className="links2"> Join Us </a></span></div>
-       </Router>
        </div>
       </nav>
     )

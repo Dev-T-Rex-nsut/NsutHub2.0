@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import image1 from "../img/image1.jpg";
 import image2 from "../img/image2.jpg";
 import image3 from "../img/image3.jpg";
+import Footer from '../initials/footer';
 import image4 from "../img/image4.jpg";
 import Carousel from "react-bootstrap/Carousel";
 import { Paper, Typography } from "@material-ui/core";
@@ -69,13 +70,14 @@ const EventHub = () => {
         </div>
       </div>
 
-      <Carousel style={{ marginTop: "100px" }}>
+      <Carousel>
         <Carousel.Item>
           <img
+            style={{borderRadius:'0px'}}
             className="d-block w-100"
             src={image1}
             alt="First slide"
-            height="400px !important"
+            height="100% !important"
             width="100%"
           />
           <Carousel.Caption
@@ -87,11 +89,12 @@ const EventHub = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
+            style={{borderRadius:'0px'}}
             className="d-block w-100"
             src={image2}
             // style={{ opacity: "0.7" }}
             alt="First slide"
-            height="400px !important"
+            height="100% !important"
             width="100%"
           />
 
@@ -104,10 +107,12 @@ const EventHub = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
+
+            style={{borderRadius:'0px'}}
             className="d-block w-100"
             src={image3}
             alt="First slide"
-            height="400px !important"
+            height="100% !important"
             width="100%"
           />
 
@@ -133,6 +138,7 @@ const EventHub = () => {
               src={image3}
               alt="First slide"
               style={{ transition: "0.3s" }}
+              style={{borderRadius:'0px'}}
               // height="400px !important"
               // width="100%"
             />
@@ -143,6 +149,7 @@ const EventHub = () => {
               src={image3}
               alt="First slide"
               style={{ transition: "0.3s" }}
+              style={{borderRadius:'0px'}}
               // height="400px !important"
               // width="100%"
             />
@@ -155,6 +162,7 @@ const EventHub = () => {
               src={image3}
               alt="First slide"
               style={{ transition: "0.3s" }}
+              style={{borderRadius:'0px'}}
               // height="400px !important"
               // width="100%"
             />
@@ -165,12 +173,14 @@ const EventHub = () => {
               src={image3}
               alt="First slide"
               style={{ transition: "0.3s" }}
+              style={{borderRadius:'0px'}}
               // height="400px !important"
               // width="100%"
             />
           </Grid>
         </Grid>
       </Grid>
+      <Footer/>
     </div> 
   );
 };

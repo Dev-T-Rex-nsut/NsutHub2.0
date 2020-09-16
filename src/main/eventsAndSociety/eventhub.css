@@ -29,15 +29,15 @@ html {
 }
 
 .pimg1 {
-  background-image: url("../img/image1.jpg");
+  background-image: url("../img/imagec1.jpg");
   min-height: 100vh;
 }
 .pimg2 {
-  background-image: url("../img/image2.jpg");
+  background-image: url("../img/imagec2.jpg");
   min-height: 400px;
 }
 .pimg3 {
-  background-image: url("../img/image3.jpg");
+  background-image: url("../img/imagec3.jpg");
   min-height: 400px;
 }
 
@@ -78,4 +78,8 @@ html {
   .pimg3 {
     background-attachment: scroll;
   }
+}
+
+.MuiGrid-root{
+  padding: 2vw;
 }

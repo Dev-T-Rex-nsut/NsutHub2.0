@@ -19,6 +19,7 @@ import 'tachyons'
 import BookDownloads from './main/ebooks/bookDownload';
 import NoteDownloads from './main/ebooks/noteDownload';
 import QuestionDownloads from './main/ebooks/questionDownload';
+import JoinBookStore from './main/bookstore/joinBookstore';
 
 class App extends React.Component{
 
@@ -79,6 +80,7 @@ class App extends React.Component{
         <Sidenav/>
         <NavBarU/> 
         <div className="stick" onClick={moveRight}> 
+           {/* <JoinBookStore ></JoinBookStore> */}
           <Route exact path="/" component={Home} />
           <Route exact path="/NsutHub2.0" component={Home} />
           <Route exact path="/login" component={() => <Signin loaduser={this.loaduser} signed={this.signed}/>}/>

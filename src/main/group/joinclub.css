@@ -1,0 +1,15 @@
+.join{
+  padding: 23%;
+  text-align: center;
+}
+.join >h2{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: ivory;
+}
+.jnCard{
+    float: left;
+    margin: 2%;
+    margin-left: 15%;
+    padding: 5%;
+}

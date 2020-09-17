@@ -94,11 +94,11 @@ class SHome extends React.Component {
 	</div>
 	<div      >
 		<div class="card1" >
-		<Link to="/login"  >
+		<Link to="/studentclub"  >
 		<img src={card2} />
 		</Link>
 		<div class="text">
-		<Link to="/login"  >
+		<Link to="/studentclub"  >
 		<h3 class="texthead">Student Club: </h3>
 		<p class="textdis">Make your own club and connect with like minded people with same interests.</p>
 		</Link></div>
@@ -182,7 +182,7 @@ class SHome extends React.Component {
 	</h1>
 	</div>
 <div class="grid">
-	<Link to="/login"  >
+	<Link to="/bookstore"  >
 	<div       class="cardmajor">
 		<div  class="card1">
 		<img src={card1} />
@@ -193,7 +193,7 @@ class SHome extends React.Component {
 	</div>
 	</Link>
 	<div      >
-		<Link to="/login"  >
+		<Link to="/studentclub"  >
 		<div class="card1" >
 		<img src={card2} />
 		<div class="text">

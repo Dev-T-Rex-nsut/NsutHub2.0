@@ -23,13 +23,17 @@ class BookDownloads extends React.Component{
       .then(row =>{ this.setState({rows:row})
         console.log(this.looping())
     })
+      console.log(this.looping())
   }
 
   looping () {
-    var b =this.state.rows;
-    b.map((a,c) =>{
-      return(5)
+    var b =[1,2,3,4];
+    b.map(a =>{
+      console.log(a);
+      return a;
     });
+
+    return b;
 
     // for (var i = 0; i < this.state.rows.length; i++) {
     //   return(

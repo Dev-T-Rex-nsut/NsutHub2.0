@@ -22,7 +22,8 @@ import QuestionDownloads from './main/ebooks/questionDownload';
 import JoinBookStore from './main/bookstore/joinBookstore';
 import SJoinBookStore from './main/bookstore/sjoinBookstore';
 import Upload from './main/bookstore/upload';
-
+import JoinStudentClub from './main/bookstore/joinstudentclub';
+import SJoinStudentClub from './main/bookstore/sjoinstudentclub';
 class App extends React.Component{
 
   constructor(props) {
@@ -68,6 +69,7 @@ class App extends React.Component{
           <Route exact path="/freecourses" component={FreeCourse} />
           <Route exact path="/events" component={EventHub} />
           <Route exact path="/bookstore" component={SJoinBookStore} />
+          <Route exact path="/studentclub" component={SJoinStudentClub} />
           <Route exact path="/society" component={Societyhub} />
           <Route exact path="/downloads" component={BookDownloads} />
           <Route exact path="/upload" component={Upload} />
@@ -93,6 +95,7 @@ class App extends React.Component{
           <Route exact path="/events" component={EventHub} />
           <Route exact path="/society" component={Societyhub} />
           <Route exact path="/bookstore" component={JoinBookStore} />
+          <Route exact path="/studentclub" component={JoinStudentClub} />
           <Route exact path="/downloads" component={BookDownloads} />
           <Route path="/verify/" component={() => <Verify loaduser={this.loaduser}/>} />
         </div>

@@ -14,7 +14,7 @@ class BookSearch extends React.Component{
 
 		this.state = {
 			query: '',
-			results: {},
+			results: [],
 			loading: false,
 			message: '',
 			totalResults: 0,

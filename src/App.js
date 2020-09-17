@@ -20,6 +20,8 @@ import BookDownloads from './main/ebooks/bookDownload';
 import NoteDownloads from './main/ebooks/noteDownload';
 import QuestionDownloads from './main/ebooks/questionDownload';
 import JoinBookStore from './main/bookstore/joinBookstore';
+import SJoinBookStore from './main/bookstore/sjoinBookstore';
+import Upload from './main/bookstore/upload';
 
 class App extends React.Component{
 
@@ -65,8 +67,10 @@ class App extends React.Component{
           <Route exact path="/books" component={BookDownloads} />
           <Route exact path="/freecourses" component={FreeCourse} />
           <Route exact path="/events" component={EventHub} />
+          <Route exact path="/bookstore" component={SJoinBookStore} />
           <Route exact path="/society" component={Societyhub} />
           <Route exact path="/downloads" component={BookDownloads} />
+          <Route exact path="/upload" component={Upload} />
           <Route path="/verify/" component={() => <Verify loaduser={this.loaduser}/>} />
         </div>
     </div>
@@ -79,9 +83,8 @@ class App extends React.Component{
     <div className="App">
         <Sidenav/>
         <NavBarU/> 
-        <div className="stick" onClick={moveRight}> 
-           {/* <JoinBookStore ></JoinBookStore> */}
-          <Route exact path="/" component={Home} />
+        <div className="stick" onClick={moveRight}>
+          <Route exact path="/" component={Upload} />
           <Route exact path="/NsutHub2.0" component={Home} />
           <Route exact path="/login" component={() => <Signin loaduser={this.loaduser} signed={this.signed}/>}/>
           <Route exact path="/register" component={() => <Signup loaduser={this.loaduser}/>}/>
@@ -89,6 +92,7 @@ class App extends React.Component{
           <Route exact path="/freecourses" component={FreeCourse} />
           <Route exact path="/events" component={EventHub} />
           <Route exact path="/society" component={Societyhub} />
+          <Route exact path="/bookstore" component={JoinBookStore} />
           <Route exact path="/downloads" component={BookDownloads} />
           <Route path="/verify/" component={() => <Verify loaduser={this.loaduser}/>} />
         </div>

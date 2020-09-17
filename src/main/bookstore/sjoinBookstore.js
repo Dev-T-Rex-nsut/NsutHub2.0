@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap"
 import "./bookstorejoin.css"
 import {Link} from "react-router-dom";
 
-const JoinBookStore = () =>{
+const SJoinBookStore = () =>{
     return (
         <>
           <div className="join moveRt">
@@ -15,7 +15,7 @@ const JoinBookStore = () =>{
               </div>
               <div className="jnCard">
               <Button className="jnBtn">
-                <Link  to="/login" style={{color:"white"}}>  Sell A Book </Link>
+                <Link  to="/upload" style={{color:"white"}}>  Sell A Book </Link>
               </Button>
               </div>
            </div>
@@ -23,4 +23,4 @@ const JoinBookStore = () =>{
     );
 }
 
-export default JoinBookStore
+export default SJoinBookStore

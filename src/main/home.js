@@ -79,11 +79,11 @@ class Home extends React.Component {
 <div class="grid">
 	<div       class="cardmajor">
 		<div  class="card1">
-		<Link to="/login"  >
+		<Link to="/bookstore"  >
 		<img src={card1} />
 		</Link>
 		<div class="text">
-		<Link to="/login"  >
+		<Link to="/bookstore"  >
 		<h3 class="texthead">Book Store: </h3>
 		<p class="textdis">Buy and Sell books by Eliminating the middle men. Buy at Low cost, Sell at more price, Simply profitable.</p>
 		</Link></div>

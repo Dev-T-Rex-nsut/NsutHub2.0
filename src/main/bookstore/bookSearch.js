@@ -114,8 +114,8 @@ class BookSearch extends React.Component{
                </div>
             <div className="fixDes">
                 <div className="proCard">
-                    <div><img className="pPic" src="" alt="error fetching profileImg" /></div>
-                    <h2 className="usr">Shivam Modi</h2>
+                    <h2 className="usr">Sourabh</h2>
+                    <h2 className="usr">2019UCS2025</h2>
                 </div>
                 <div className="proIcn">
                     <span><FontAwesomeIcon icon={faUser}/>  Profile</span>

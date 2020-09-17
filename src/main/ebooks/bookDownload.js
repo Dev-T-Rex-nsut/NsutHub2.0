@@ -8,6 +8,36 @@ import DropdownButton from 'react-bootstrap/DropdownButton'
 
 class BookDownloads extends React.Component{ 
 
+  constructor(props){
+    super(props)
+    this.state={
+      rows:[],
+      d:0
+    }
+  }
+
+
+  componentDidMount(){
+    fetch('http://localhost:3000/sheets')
+      .then(response => response.json())
+      .then(row =>{ this.setState({rows:row})
+        console.log(this.looping())
+    })
+  }
+
+  looping () {
+    var b =this.state.rows;
+    b.map((a,c) =>{
+      return(5)
+    });
+
+    // for (var i = 0; i < this.state.rows.length; i++) {
+    //   return(
+                
+    // );
+    // }
+  }
+
 search = (event) =>{
   console.log(event.target.value)
   var input, filter, table, tr, td, i, txtValue;
@@ -27,6 +57,7 @@ search = (event) =>{
     }       
   }
 }
+
 
 render(){
     return (
@@ -56,83 +87,16 @@ render(){
                         </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td><button class="btn"><FaDownload style={{color: "white"}}/> </button></td>
-                       </tr>
-                       <tr>
-                          <td>___</td>
-                          <td>___</td>
-                          <td>___</td>
-                          <td>___</td>
-                          <td><button class="btn"><FaDownload style={{color: "white"}}/> </button></td>
-                       </tr>
-                       <tr>
-                          <td>___</td>
-                          <td>___</td>
-                          <td>___</td>
-                          <td>___</td>
-                          <td><button class="btn"><FaDownload style={{color: "white"}}/> </button></td>
-                      </tr> 
-                      <tr>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td><button class="btn"><FaDownload style={{color: "white"}}/> </button></td>
-                    </tr>
-                    <tr>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td><button class="btn"><FaDownload style={{color: "white"}}/> </button></td>
-                    </tr>
-                    <tr>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td><button class="btn"><FaDownload style={{color: "white"}}/> </button></td>
-                    </tr>
-                    <tr>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td><button class="btn"><FaDownload style={{color: "white"}}/> </button></td>
-                    </tr>
-                    <tr>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td><button class="btn"><FaDownload style={{color: "white"}}/> </button></td>
-                    </tr>
-                    <tr>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td><button class="btn"><FaDownload style={{color: "white"}}/> </button></td>
-                    </tr>
-                    <tr>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td><button class="btn"><FaDownload style={{color: "white"}}/> </button></td>
-                    </tr>
-                    <tr>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td><button class="btn"><FaDownload style={{color: "white"}}/> </button></td>
-                    </tr>
+                    {this.state.rows.map(function(item, i){
+                    console.log('test');
+                    return (<tr>
+                        <td>{item.a}</td>
+                        <td>{item.z}</td>
+                        <td>{item.a}</td>
+                        <td>{item.z}</td>
+                <td><button class="btn"><FaDownload style={{color: "white"}}/> </button></td>
+              </tr>);
+                    })}
                     </tbody>
                 </table>
             </div>

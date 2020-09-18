@@ -16,6 +16,7 @@ import new2 from './img/new1.jpg';
 import 'aos/dist/aos.css';
 import {Link} from "react-router-dom";
 import Downloads from "./ebooks/bookDownload";
+import Footer from "./initials/footer"
 
 class Home extends React.Component {
 
@@ -153,7 +154,7 @@ class Home extends React.Component {
 <div class="container1 con-add">
 <img src={background} class="her"/>
 <div class="request">
-	<h1 class="request-head">Join NSUT-HUB Support Team</h1>
+	<h1 style={{margin:'0px'}} class="request-head">Join NSUT-HUB Support Team</h1>
 	<p class="request-text">All of us know that getting hands on question papers, Notes ,E-Books is a difficult job and on top of it we are short-handed. We will appreciate any help we can get. You can contribute by sending us your notes, E-books, question papers. Small contributions from everyone will help us create the best collection of all the essentials. You can send the content on the Whatsapp group, join now by clicking the button given below.</p>
 </div>
 </div>

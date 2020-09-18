@@ -4,8 +4,6 @@ import "./nsut";
 import Footer from "../initials/footer";
 import { FaDownload } from "react-icons/fa";
 import { FaAngleDown } from 'react-icons/fa';
-import DropdownButton from 'react-bootstrap/DropdownButton'
-
 class BookDownloads extends React.Component{ 
 
   constructor(props){

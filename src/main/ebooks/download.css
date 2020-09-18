@@ -1,18 +1,6 @@
 .dnds{
    display: block;
 }
-.sidenav1 {
-  height: 105.7%;
-  width: 200px;
-  position: absolute;
-  margin-top: 4.5%;
-  top: 0;
-  left: 0;
-  background-color: #00ffff;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
 .dropdown-submenu {
   position: relative;
 }

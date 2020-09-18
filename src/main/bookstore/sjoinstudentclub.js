@@ -2,6 +2,8 @@ import React from "react"
 import { Button } from "react-bootstrap"
 import "./bookstorejoin.css"
 import {Link} from "react-router-dom";
+import Footer from "../initials/footer"
+
 
 const SJoinStudentClub = () =>{
     return (

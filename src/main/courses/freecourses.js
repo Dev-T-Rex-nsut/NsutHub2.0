@@ -19,37 +19,37 @@ import Footer from "../initials/footer"
           </div>
           <div className="empty"></div>
            <div className="sup"> Choose your courses</div>
-           <div className="section group">
+           <div style={{display:'flex'}} className="section group">
          	     <div className="span_1_of_3">
                   <a href="#web">
-         	          <img src={web} className="courim"></img>
+         	          <img style={{height:'100%',borderRadius:'0px', padding:'1vw'}} src={web} className="courim"></img>
                   </a>     
          	     </div>
          	     <div className="span_1_of_3">
                    <a href="#app">
-                     <img src={app} className="courim"></img>
+                     <img style={{height:'100%',borderRadius:'0px', padding:'1vw'}} src={app} className="courim"></img>
                    </a>
          	     </div>
          	     <div className="span_1_of_3">
                    <a href="#mlaidl">
-                     <img src={mldl} className="courim"></img>
+                     <img style={{height:'100%',borderRadius:'0px', padding:'1vw'}} src={mldl} className="courim"></img>
                    </a>  
          	     </div>
            </div>
-           <div className="section group">
+           <div style={{display:'flex'}} className="section group">
 	          <div className="span_1_of_3">
                  <a href="#algo"> 
-          	       <img src={lang} className="courim"></img>
+          	       <img style={{height:'100%',borderRadius:'0px', padding:'1vw'}} src={lang} className="courim"></img>
                  </a>
           	  </div>
           	  <div className="span_1_of_3">
                  <a href="#bash">
-                  <img src={linux} className="courim"></img>
+                  <img style={{height:'100%',borderRadius:'0px', padding:'1vw'}} src={linux} className="courim"></img>
                  </a>  
           	  </div>
           	  <div className="span_1_of_3"> 
                 <a href="#other">
-                  <img src={other} className="courim"></img>
+                  <img style={{height:'100%',borderRadius:'0px', padding:'1vw'}} src={other} className="courim"></img>
                 </a>
           	     </div>
               </div>

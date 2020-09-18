@@ -7,7 +7,7 @@ const SSidenav = () => {
     return (
         <nav className ="closedNav">
           <div className ="nav-top">   
-           <img src ="https://i.pinimg.com/564x/e3/21/6b/e3216b575d5e92031eaf5c1a067f9d31.jpg" alt="NsutHub" className="navlogo"/>
+           <img style={{borderRadius:'0px'}} src ="https://i.pinimg.com/564x/e3/21/6b/e3216b575d5e92031eaf5c1a067f9d31.jpg" alt="NsutHub" className="navlogo"/>
            <div class ="pull-right" >
                <div class ="bt-close" onClick={moveRight}>&#10060;</div>
            </div>

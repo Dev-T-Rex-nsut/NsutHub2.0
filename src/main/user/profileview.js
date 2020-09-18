@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "../style.css";
 import {Route} from "react-router-dom"
 import ProfileUpdate from "./profileUpdate";
 import Footer from "../initials/footer";

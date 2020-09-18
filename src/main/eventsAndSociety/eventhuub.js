@@ -98,7 +98,7 @@ const EventHub = () => {
             width="100%"
           />
 
-          <Carousel.Caption
+           <Carousel.Caption
             style={{ border: "1px solid white", marginBottom: "100px" }}
           >
             <h3>Second slide label</h3>

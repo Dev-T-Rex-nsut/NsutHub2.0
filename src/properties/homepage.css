@@ -86,7 +86,19 @@ body{
 .sidenav{
   left: 0%;
   transition: left 1.0s ease-out;
+  padding: 0px !important;
+  width: 21rem !important;
 }
+
+span{
+  margin: 0px !important;
+}
+
+.sidenav a{
+  margin: 0px !important;
+  display: inline !important;
+}
+
 .collapseNav{
   transform: translateX(21rem);
   transition: transform 1.0s ease-in-out;

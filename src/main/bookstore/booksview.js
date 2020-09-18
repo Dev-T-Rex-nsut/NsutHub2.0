@@ -18,7 +18,7 @@ class BooksView extends React.Component{
         this.bargain = "Not Barginable"
     }
     }  
-   fetchData = id =>{
+   fetchData = url =>{
        fetch(url)
          .then(response => response.json)
          .then(json => this.setState({state: json.data}))

@@ -22,7 +22,7 @@ const SNavBarU = () => {
         </div>
             <div className="logo" onClick={moveRight}><img className="logoimg" src="https://logoipsum.com/logo/logo-12.svg"/></div>      
             <div className="responsive">
-            <Link style={{textDecoration:'none'}} to="/profile"><div className="ink2"><h2>Profile</h2></div></Link>
+            <Link style={{textDecoration:'none'}} to="/profile"><div className="ink2"><h2 style={{margin:'0px'}}>Profile</h2></div></Link>
             </div>      
          </header>
       </div>

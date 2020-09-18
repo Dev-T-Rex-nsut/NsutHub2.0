@@ -22,8 +22,8 @@ const NavBarU = () => {
         </div>
             <div className="logo" onClick={moveRight}><img className="logoimg" src="https://logoipsum.com/logo/logo-12.svg"/></div>      
             <div className="responsive">
-            <Link style={{textDecoration:'none'}} to="/login" ><div className="ink"><h2 style={{color:'black'}}>Sign In</h2></div></Link>
-            <Link style={{textDecoration:'none'}} to="/register"><div className="ink2"><h2>Sign Up</h2></div></Link>
+            <Link style={{textDecoration:'none'}} to="/login" ><div className="ink"><h2 style={{color:'black',margin:'0px'}}>Sign In</h2></div></Link>
+            <Link style={{textDecoration:'none'}} to="/register"><div className="ink2"><h2 style={{margin:'0px'}}>Sign Up</h2></div></Link>
             </div>      
          </header>
       </div>

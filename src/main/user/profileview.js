@@ -18,17 +18,18 @@ class ProfileOverview extends React.Component{
            Account Overview
           </div>
         </Route>
-        <Route path="/editprofile" exact component={ProfileUpdate} >
-         <div className="edit1">
-           Edit Profile
-         </div>
-        </Route>
       </div>
       <div className="bossForm">
         <h1 className="mgh">Acccount Overview</h1>
         <h2 className="mg">Profile</h2>
         <h4 className="mg">
-          Username: <span className="userN">{this.props.rollno}</span>
+          First Name: <span className="userN">{this.props.fname}</span>
+        </h4>
+        <h4 className="mg">
+          Last Name: <span className="userN">{this.props.lname}</span>
+        </h4>
+        <h4 className="mg">
+          Roll No: <span className="userN">{this.props.rollno}</span>
         </h4>
         <h4 className="mg">
           Email: <span className="eml">{this.props.email}</span>

@@ -74,7 +74,7 @@ class App extends React.Component{
           <Route exact path="/studentclub" component={SJoinStudentClub} />
           <Route exact path="/registerclub" component={ClubSignup}/>
           <Route exact path="/society" component={Societyhub} />
-          <Route exact path="/profile" component={ProfileOverview} />
+          <Route exact path="/profile" component={() => <ProfileOverview rollno={this.state.Rollno} email={this.state.email} fname={this.state.FirstName} lname={this.state.LastName}/>}/>
           <Route exact path="/upload" component={Upload} />
           <Route exact path="/notes" component={NoteDownloads}/>
           <Route exact path="/bookdetails/:bookid" component={BooksView}/>

@@ -14,7 +14,7 @@ const SSidenav = () => {
        </div>  
        <div className ="linksCol">
          <div className ="linkhover choosen"><Link to="/" className="links"> Home </Link></div>
-         <div className ="linkhover"><Link to="/register" className="links"> Profile </Link></div>
+         <div className ="linkhover"><Link to="/profile" className="links"> Profile </Link></div>
          <div className ="linkhover"><Link to="/joinus" className="links"> Join Us </Link></div>
          <div className ="linkhover"><Link to="/books" className="links"> E-books </Link></div>
          <div className ="linkhover"><Link to="/freecourses" className="links"> Courses </Link></div>

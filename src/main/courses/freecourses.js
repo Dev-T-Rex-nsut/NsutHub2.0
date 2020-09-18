@@ -7,11 +7,11 @@ import mldl from "../img/mldlai.jpg"
 import lang from "../img/languages.png"
 import other from "../img/softskills.png"
 import coursesheader from "../img/coursesheader.png"
+import Footer from "../initials/footer"
 
  class FreeCourse extends React.Component {
 
   render(){ 
-    const {onRouteChange} = this.props;
     return (
           <div className="moveRt">
           <div className="courseHero">
@@ -296,6 +296,7 @@ import coursesheader from "../img/coursesheader.png"
              </div>
           </div>
           <div className="foottag">Learning never stops; so always be curious -<a className="ik" href="https://www.facebook.com/dev.trex.90">Dev-T-rex</a></div>
+          <Footer/>
       </div>
      );
   }    

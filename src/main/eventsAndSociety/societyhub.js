@@ -1,7 +1,6 @@
 import React from "react";
 import { Paper, Typography } from "@material-ui/core";
 import Grid from "@material-ui/core/Grid";
-// import "./App.css";
 import image from "../img/unplugged.jpg";
 import { makeStyles } from "@material-ui/core";
 import { ScrollView } from "react-native-web";

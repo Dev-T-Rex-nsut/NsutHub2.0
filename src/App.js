@@ -24,6 +24,8 @@ import SJoinBookStore from './main/bookstore/sjoinBookstore';
 import Upload from './main/bookstore/upload';
 import JoinStudentClub from './main/bookstore/joinstudentclub';
 import SJoinStudentClub from './main/bookstore/sjoinstudentclub';
+import ProfileOverview from './main/user/profileview';
+import ClubSignup from './main/user/Clubform';
 class App extends React.Component{
 
   constructor(props) {
@@ -70,9 +72,13 @@ class App extends React.Component{
           <Route exact path="/events" component={EventHub} />
           <Route exact path="/bookstore" component={SJoinBookStore} />
           <Route exact path="/studentclub" component={SJoinStudentClub} />
+          <Route exact path="/registerclub" component={ClubSignup}/>
           <Route exact path="/society" component={Societyhub} />
-          <Route exact path="/downloads" component={BookDownloads} />
+          <Route exact path="/profile" component={ProfileOverview} />
           <Route exact path="/upload" component={Upload} />
+          <Route exact path="/notes" component={NoteDownloads}/>
+          <Route exact path="/bookdetails/:bookid" component={BooksView}/>
+          <Route exact path="/questions" component={QuestionDownloads}/>
           <Route path="/verify/" component={() => <Verify loaduser={this.loaduser}/>} />
         </div>
     </div>
@@ -86,7 +92,7 @@ class App extends React.Component{
         <Sidenav/>
         <NavBarU/> 
         <div className="stick" onClick={moveRight}>
-          <Route exact path="/" component={Upload} />
+          <Route exact path="/" component={Home} />
           <Route exact path="/NsutHub2.0" component={Home} />
           <Route exact path="/login" component={() => <Signin loaduser={this.loaduser} signed={this.signed}/>}/>
           <Route exact path="/register" component={() => <Signup loaduser={this.loaduser}/>}/>
@@ -96,7 +102,8 @@ class App extends React.Component{
           <Route exact path="/society" component={Societyhub} />
           <Route exact path="/bookstore" component={JoinBookStore} />
           <Route exact path="/studentclub" component={JoinStudentClub} />
-          <Route exact path="/downloads" component={BookDownloads} />
+          <Route exact path="/questions" component={QuestionDownloads}/>
+          <Route exact path="/notes" component={NoteDownloads} />
           <Route path="/verify/" component={() => <Verify loaduser={this.loaduser}/>} />
         </div>
     </div>

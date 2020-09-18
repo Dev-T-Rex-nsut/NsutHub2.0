@@ -7,7 +7,7 @@ const SJoinStudentClub = () =>{
     return (
         <>
           <div className="join moveRt">
-              <h2>We have all the books you need </h2>
+              <h2>Meet with like minded persons </h2>
               <div className="jnCard">
               <Button className="jnBtn">
                  <Link to="/" style={{color:"white"}}>Join A Club</Link>
@@ -15,10 +15,11 @@ const SJoinStudentClub = () =>{
               </div>
               <div className="jnCard">
               <Button className="jnBtn">
-                <Link  to="/login" style={{color:"white"}}>Make A Club</Link>
+                <Link  to="/registerclub" style={{color:"white"}}>Make A Club</Link>
               </Button>
               </div>
            </div>
+           <Footer/>
         </>
     );
 }

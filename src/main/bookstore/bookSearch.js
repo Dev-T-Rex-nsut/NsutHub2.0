@@ -6,6 +6,7 @@ import {Route} from 'react-router-dom'
 import './bookSearch.css'
 import BooksView from "./booksview";
 import Loader from "./modals/loader.gif"
+import Footer from "../initials/footer";
 
 class BookSearch extends React.Component{
   
@@ -26,7 +27,6 @@ class BookSearch extends React.Component{
 
 	/**
 	 *
-	 * @param {int} updatedPageNo Updated Page No.
 	 * @param {String} query Search Query.
 	 *
 	 */
@@ -126,7 +126,10 @@ class BookSearch extends React.Component{
             </div>    
             <img src={ Loader } className={`search-loading ${ loading ? 'show' : 'hide' }`} alt="loader"/>        
             { this.renderSearchResults() }
+			<Footer/>
            </div>
        )
     }
 }
+
+export default BookSearch

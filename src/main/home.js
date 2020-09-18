@@ -1,12 +1,6 @@
 import React from "react";
-import { moveRight } from "../properties/functions";
-import Footer from '../main/initials/footer'
 import { FaArrowDown } from 'react-icons/fa';
 import { FaArrowUp } from 'react-icons/fa';
-import { FaFacebookF } from 'react-icons/fa';
-import { FaGithubAlt } from 'react-icons/fa';
-import { FaLinkedinIn } from 'react-icons/fa';
-import { FaInstagramSquare } from 'react-icons/fa';
 import "./style.css"
 import background from './img/background.png';
 import background1 from './img/background1.png';
@@ -138,7 +132,7 @@ class Home extends React.Component {
 	<div class="grid1">
 	<p class="lay "      ><b class="extra-heading ">Question Papers</b><br/>A catalogue of up to date question papers at your disposal.<br/><br/>•every subject, every year.<br/>•from (insert year)<br/></p>
 	<div class="extra-img"     >
-	<img  src={ques} width="100%;" class ="extra" />
+	<Link to="/questions"><img  src={ques} width="100%;" class ="extra" /></Link>
 	</div>
 	<p class="changelay2 lay"      ><b class="extra-heading ">Event hub:</b><br/>Never miss an event ever again. One quick look at The Event Hub and you are good to go.<br/><br/>•date and timing of every event<br/>•Name of the society hosting it<br/>•Participation forms/requirements (if any)<br/></p>
 	<div class="extra-img"      >
@@ -151,7 +145,7 @@ class Home extends React.Component {
 	</div>
 	<p class="changelay2 lay"     ><b class="extra-heading ">Notes:</b><br/>Simple and easy to understand notes for the perfect preparation. Never go unprepared ever again.<br/><br/>•Get notes of the topics you missed or couldn't understand.<br/>•Notes of every subject available and for every year.<br/></p>
 	<div class="extra-img"      >
-	     <Link to="/downloads"><img  src={notes} width="100%;" class ="extra" /></Link>
+	     <Link to="/notes"><img  src={notes} width="100%;" class ="extra" /></Link>
     </div>
 	<p class="changelay1 lay"     ><b class="extra-heading ">Notes:</b><br/>Simple and easy to understand notes for the perfect preparation. Never go unprepared ever again.<br/><br/>•Get notes of the topics you missed or couldn't understand.<br/>•Notes of every subject available and for every year.<br/></p>
 </div>
@@ -228,7 +222,7 @@ class Home extends React.Component {
 	<div class="grid1">
 	<p class="lay "      ><b class="extra-heading ">Question Papers</b><br/>A catalogue of up to date question papers at your disposal.<br/><br/>•every subject, every year.<br/>•from (insert year)<br/></p>
 	<div class="extra-img"     >
-	<img  src={ques} width="100%;" class ="extra" />
+	<Link to="/questions"><img  src={ques} width="100%;" class ="extra" /></Link>
 	</div>
 	<p class="changelay2 lay"      ><b class="extra-heading ">Event hub:</b><br/>Never miss an event ever again. One quick look at The Event Hub and you are good to go.<br/><br/>•date and timing of every event<br/>•Name of the society hosting it<br/>•Participation forms/requirements (if any)<br/></p>
 	<div class="extra-img"      >
@@ -242,7 +236,7 @@ class Home extends React.Component {
 	<p class="changelay2 lay"     ><b class="extra-heading ">Notes:</b><br/>Simple and easy to understand notes for the perfect preparation. Never go unprepared ever again.<br/><br/>•Get notes of the topics you missed or couldn't understand.<br/>•Notes of every subject available and for every year.<br/></p>
 	
 		<div class="extra-img"      >
-		<Link to="/downloads" ><img  src={notes} width="100%;" class ="extra" /></Link>
+		<Link to="/notes" ><img  src={notes} width="100%;" class ="extra" /></Link>
 		</div>
 	<p class="changelay1 lay"     ><b class="extra-heading ">Notes:</b><br/>Simple and easy to understand notes for the perfect preparation. Never go unprepared ever again.<br/><br/>•Get notes of the topics you missed or couldn't understand.<br/>•Notes of every subject available and for every year.<br/></p>
 </div>

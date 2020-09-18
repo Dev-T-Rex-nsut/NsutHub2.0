@@ -5,7 +5,7 @@ import { FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaPhone, FaMapMarker, FaEn
 
 const Footer = () =>{
     return (
-        <div>
+        <div className="moveRt">
           	    <footer class="footer-distributed">
 
                 <div class="footer-left">

@@ -13,15 +13,15 @@ const Sidenav = () => {
            </div>
        </div>  
        <div className ="linksCol">
-         <div className ="linkhover choosen"><Link to="/" className="links"> Home </Link></div>
-         <div className ="linkhover"><Link to="/register" className="links"> SignUp </Link></div>
-         <div className ="linkhover"><Link to="/login" className="links"> SignIn </Link></div> 
-         <div className ="linkhover"><Link to="/joinus" className="links"> Join Us </Link></div>
-         <div className ="linkhover"><Link to="/books" className="links"> E-books </Link></div>
-         <div className ="linkhover"><Link to="/freecourses" className="links"> Courses </Link></div>
-         <div className ="linkhover"><Link to="/events" className="links"> Events </Link></div>
+         <div className ="linkhover choosen"><Link to="/" style={{textDecoration: "none"}} className="links"> Home </Link></div>
+         <div className ="linkhover"><Link to="/register" style={{textDecoration: "none"}} className="links"> SignUp </Link></div>
+         <div className ="linkhover"><Link to="/login" style={{textDecoration: "none"}} className="links"> SignIn </Link></div> 
+         <div className ="linkhover"><Link to="/joinus" style={{textDecoration: "none"}} className="links"> Join Us </Link></div>
+         <div className ="linkhover"><Link to="/books" style={{textDecoration: "none"}} className="links"> E-books </Link></div>
+         <div className ="linkhover"><Link to="/freecourses" style={{textDecoration: "none"}} className="links"> Courses </Link></div>
+         <div className ="linkhover"><Link to="/events" style={{textDecoration: "none"}} className="links"> Events </Link></div>
          <div className ="spaceBox"></div>
-         <div className ="lnk"><span><a href="#" className="links2"> About Us </a><a href="#" className="links2"> Join Us </a></span></div>
+         <div className ="lnk"><span><Link to="/aboutus" style={{textDecoration: "none"}} className="links2"> About Us </Link><a href="#" className="links2"> Join Us </a></span></div>
        </div>
       </nav>
     )

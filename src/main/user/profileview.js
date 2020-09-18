@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import {Route} from "react-router-dom"
 import ProfileUpdate from "./profileUpdate";
+import Footer from "../initials/footer";
 
 class ProfileOverview extends React.Component{
 
@@ -36,6 +37,7 @@ class ProfileOverview extends React.Component{
           Sign Out
         </button>
       </div>
+      <Footer/>
     </div>
   );
   }

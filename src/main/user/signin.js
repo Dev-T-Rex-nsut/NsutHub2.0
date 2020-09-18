@@ -1,8 +1,8 @@
 import React from 'react';
 import './form.css'
-import Footer from '../initials/footer'
 import { store } from 'react-notifications-component';
 import { Redirect } from "react-router-dom";
+import Footer from '../initials/footer';
 
 class Signin extends React.Component {
   

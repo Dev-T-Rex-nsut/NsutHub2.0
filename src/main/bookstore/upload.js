@@ -2,6 +2,7 @@ import React from 'react';
 import '../user/form.css'
 import { useAlert } from 'react-alert' 
 import FileBase64 from 'react-filebase64';
+import Footer from '../initials/footer';
 
 class Upload extends React.Component {
   
@@ -174,17 +175,14 @@ class Upload extends React.Component {
                 multiple={ true }
                 onDone={ this.getFiles3.bind(this) } />
               </div>
-              <label className="pa0 ma0 lh-copy f6 pointer"><input type="checkbox"/> Remember me</label>
             </div>
             </fieldset>
             <div onClick={this.onSubmit}>
-              <input className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib sin" method="post" value="Sign Up" />
-            </div>
-            <div className="lh-copy mt3">
-              <a onClick={() => onroutechange('signin')} className="f6 link dim black db">Already a member Sign In</a>
+              <input className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib sin" method="post" value="Upload" />
             </div>
           </form>
         </main>
+        <Footer/>
       </div>
   );
   }

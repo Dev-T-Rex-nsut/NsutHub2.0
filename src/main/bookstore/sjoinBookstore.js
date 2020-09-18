@@ -10,7 +10,7 @@ const SJoinBookStore = () =>{
               <h2>We have all the books you need </h2>
               <div className="jnCard">
               <Button className="jnBtn">
-                 <Link to="/" style={{color:"white"}}>Buy a Book</Link>
+                 <Link to="/booksearch" style={{color:"white"}}>Buy a Book</Link>
               </Button>
               </div>
               <div className="jnCard">
@@ -19,6 +19,7 @@ const SJoinBookStore = () =>{
               </Button>
               </div>
            </div>
+           <Footer/>
         </>
     );
 }

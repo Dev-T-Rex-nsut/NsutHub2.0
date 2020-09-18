@@ -1,7 +1,7 @@
 import React from 'react';
 import './form.css'
-import Footer from '../initials/footer'
 import { useAlert } from 'react-alert' 
+import Footer from '../initials/footer';
 
 class Signup extends React.Component {
   
@@ -70,8 +70,6 @@ class Signup extends React.Component {
       alert("Please use Nsut or Nsit ID for Registration")
     }
   }
-
-
 
   render(){
     const {onroutechange} = this.props;

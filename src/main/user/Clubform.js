@@ -3,7 +3,7 @@ import './form.css'
 import Footer from '../initials/footer'
 import { useAlert } from 'react-alert' 
 
-class Signup extends React.Component {
+class ClubSignup extends React.Component {
   
     constructor(props) {
         super(props);
@@ -111,4 +111,4 @@ class Signup extends React.Component {
   );
   }
 }
-export default Signup;
+export default ClubSignup;

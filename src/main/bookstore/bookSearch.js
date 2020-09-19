@@ -7,6 +7,7 @@ import './bookSearch.css'
 import BooksView from "./booksview";
 import Loader from "./modals/loader.gif"
 import Footer from "../initials/footer";
+import axios from "axios"
 
 class BookSearch extends React.Component{
   
@@ -31,7 +32,7 @@ class BookSearch extends React.Component{
 	 *
 	 */
 	fetchSearchResults = ( query ) => {
-		const searchUrl = `http://localhost:3000/booksearch/?${query}`;
+		const searchUrl = `https://nsut-hub-backend.herokuapp.com/booksearch/?${query}`;
 
 		if( this.cancel ) {
 			this.cancel.cancel();

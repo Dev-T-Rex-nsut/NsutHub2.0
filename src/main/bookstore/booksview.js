@@ -10,7 +10,7 @@ class BooksView extends React.Component{
     bargain = "";
   componentDidMount(){
      const id = this.props.match.params.id; 
-     const url = `http://localhost:3000/bookinfo/${id}`
+     const url = `https://nsut-hub-backend.herokuapp.com/bookinfo/${id}`
      this.fetchData(id);
      if (this.state.data.bargainable) {
         this.bargain = "Contact seller to bargain"

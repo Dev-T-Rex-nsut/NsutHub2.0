@@ -7,6 +7,40 @@ import { FaAngleDown } from 'react-icons/fa';
 
 class QuestionDownloads extends React.Component{ 
 
+constructor(props){
+    super(props)
+    this.state={
+      rows:[],
+      d:0
+    }
+  }
+
+
+  componentDidMount(){
+    fetch('https://nsut-hub-backend.herokuapp.com/questions')
+      .then(response => response.json())
+      .then(row =>{ this.setState({rows:row})
+        console.log(this.looping())
+    })
+      console.log(this.looping())
+  }
+
+  looping () {
+    var b =[1,2,3,4];
+    b.map(a =>{
+      console.log(a);
+      return a;
+    });
+
+    return b;
+
+    // for (var i = 0; i < this.state.rows.length; i++) {
+    //   return(
+                
+    // );
+    // }
+  }
+
 search = (event) =>{
   console.log(event.target.value)
   var input, filter, table, tr, td, i, txtValue;
@@ -27,13 +61,14 @@ search = (event) =>{
   }
 }
 
+
 render(){
     return (
       <>
         <div className="dnds moveRt">
         <div class="solving">
             <div class="col-12">
-                <h2 style={{color:"whitesmoke"}}>Question Papers</h2>
+                <h2 style={{color:"whitesmoke"}}>Books</h2>
             </div>
 
             <div class="col-md-12 col-sm-6"></div>
@@ -55,83 +90,16 @@ render(){
                         </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td><button class="btn"><FaDownload style={{color: "white"}}/> </button></td>
-                       </tr>
-                       <tr>
-                          <td>___</td>
-                          <td>___</td>
-                          <td>___</td>
-                          <td>___</td>
-                          <td><button class="btn"><FaDownload style={{color: "white"}}/> </button></td>
-                       </tr>
-                       <tr>
-                          <td>___</td>
-                          <td>___</td>
-                          <td>___</td>
-                          <td>___</td>
-                          <td><button class="btn"><FaDownload style={{color: "white"}}/> </button></td>
-                      </tr> 
-                      <tr>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td><button class="btn"><FaDownload style={{color: "white"}}/> </button></td>
-                    </tr>
-                    <tr>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td><button class="btn"><FaDownload style={{color: "white"}}/> </button></td>
-                    </tr>
-                    <tr>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td><button class="btn"><FaDownload style={{color: "white"}}/> </button></td>
-                    </tr>
-                    <tr>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td><button class="btn"><FaDownload style={{color: "white"}}/> </button></td>
-                    </tr>
-                    <tr>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td><button class="btn"><FaDownload style={{color: "white"}}/> </button></td>
-                    </tr>
-                    <tr>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td><button class="btn"><FaDownload style={{color: "white"}}/> </button></td>
-                    </tr>
-                    <tr>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td><button class="btn"><FaDownload style={{color: "white"}}/> </button></td>
-                    </tr>
-                    <tr>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td>___</td>
-                        <td><button class="btn"><FaDownload style={{color: "white"}}/> </button></td>
-                    </tr>
+                    {this.state.rows.map(function(item, i){
+                    console.log('test');
+                    return (<tr>
+                        <td>{item.name}</td>
+                        <td>{item.year}</td>
+                        <td>{item.branch}</td>
+                        <td>{item.subject}</td>
+                <td><a href={`${item.upload}`} target={"_blank"}><button class="btn"><FaDownload style={{color: "white"}}/> </button></a></td>
+              </tr>);
+                    })}
                     </tbody>
                 </table>
             </div>

@@ -12,7 +12,7 @@ const SJoinStudentClub = () =>{
               <h2>Meet with like minded persons </h2>
               <div className="jnCard">
               <Button className="jnBtn">
-                 <Link to="/" style={{color:"white"}}>Join A Club</Link>
+                 <Link to="/club" style={{color:"white"}}>Join A Club</Link>
               </Button>
               </div>
               <div className="jnCard">

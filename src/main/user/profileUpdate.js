@@ -41,7 +41,7 @@ this.setState({SignUprollno: event.target.value})
 
 onSubmit = () =>{
 if (this.state.SignUpPassword === this.state.SignUpconfirmPassword && this.state.SignUpPassword.length >= 8) {
-fetch('http://localhost:3000/updateprofile',{
+fetch('https://nsut-hub-backend.herokuapp.com/updateprofile',{
   method:'post',
   headers:{'Content-Type':'application/json'},
   body: JSON.stringify({

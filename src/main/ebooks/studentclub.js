@@ -4,41 +4,8 @@ import "./nsut";
 import Footer from "../initials/footer";
 import { FaDownload } from "react-icons/fa";
 import { FaAngleDown } from 'react-icons/fa';
-class BookDownloads extends React.Component{ 
 
-  constructor(props){
-    super(props)
-    this.state={
-      rows:[],
-      d:0
-    }
-  }
-
-
-  componentDidMount(){
-    fetch('https://nsut-hub-backend.herokuapp.com/books')
-      .then(response => response.json())
-      .then(row =>{ this.setState({rows:row})
-        console.log(this.looping())
-    })
-      console.log(this.looping())
-  }
-
-  looping () {
-    var b =[1,2,3,4];
-    b.map(a =>{
-      console.log(a);
-      return a;
-    });
-
-    return b;
-
-    // for (var i = 0; i < this.state.rows.length; i++) {
-    //   return(
-                
-    // );
-    // }
-  }
+class Studentclub extends React.Component{ 
 
 search = (event) =>{
   console.log(event.target.value)
@@ -60,14 +27,13 @@ search = (event) =>{
   }
 }
 
-
 render(){
     return (
       <>
         <div className="dnds moveRt">
         <div class="solving">
             <div class="col-12">
-                <h2 style={{color:"whitesmoke"}}>Books</h2>
+                <h2 style={{color:"whitesmoke"}}>Notes</h2>
             </div>
 
             <div class="col-md-12 col-sm-6"></div>
@@ -83,23 +49,19 @@ render(){
                                
                                 S.No</th>
                             <th>NAME</th>
-                            <th>Year&Branch</th>
-                            <th>SUBJECT</th>
-                            <th>DOWNLOAD</th>
+                            <th>Descreption</th>
+                            <th>Moto</th>
+                            <th>Join</th>
                         </tr>
                     </thead>
                     <tbody>
-                    {this.state.rows.map(function(item, i){
-                    console.log('test');
-                    return (<tr>
-                        <td>{item.name}</td>
-                        <td>{item.year}</td>
-                        <td>{item.branch}</td>
-                        <td>{item.subject}</td>
-                <td><a href={`${item.upload}`} target={"_blank"}><button class="btn"><FaDownload style={{color: "white"}}/> </button></a></td>
-              </tr>);
-                    })}
-                    </tbody>
+                      <tr>
+                        <td>No registered Clubs yet</td>
+                        <td>No registered Clubs yet</td>
+                        <td>No registered Clubs yet</td>
+                        <td>No registered Clubs yet</td>
+                        <td>No registered Clubs yet</td>
+                       </tr>                    </tbody>
                 </table>
             </div>
         </div>
@@ -110,4 +72,4 @@ render(){
   }
 }
 
-export default BookDownloads
+export default Studentclub

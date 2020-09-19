@@ -6,7 +6,7 @@ class Confirm extends React.Component{
   onpressed(){
     const jwt = this.props.match.params.jwt
 
-    fetch(`http://localhost:3000/activation/:${jwt}` , {
+    fetch(`https://nsut-hub-backend.herokuapp.com/activation/:${jwt}` , {
       method: "POST",
       headers: {
         'Content-type': 'application/json'

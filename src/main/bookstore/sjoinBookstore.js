@@ -11,7 +11,7 @@ const SJoinBookStore = () =>{
               <h2>We have all the books you need </h2>
               <div className="jnCard">
               <Button className="jnBtn">
-                 <Link to="/booksearch" style={{color:"white"}}>Buy a Book</Link>
+                 <Link to="/search" style={{color:"white"}}>Buy a Book</Link>
               </Button>
               </div>
               <div className="jnCard">

@@ -12,13 +12,6 @@ class ProfileOverview extends React.Component{
   render(){
       return (
     <div className="App moveRt">
-      <div className="sidenavPro">
-        <Route path="/profile" exact component={ProfileOverview}>
-          <div  className="edit">
-           Account Overview
-          </div>
-        </Route>
-      </div>
       <div className="bossForm">
         <h1 className="mgh">Acccount Overview</h1>
         <h2 className="mg">Profile</h2>

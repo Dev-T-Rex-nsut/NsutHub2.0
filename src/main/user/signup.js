@@ -43,7 +43,7 @@ class Signup extends React.Component {
     var endid = this.state.SignUpEmail.split("@")
     if (endid[1] === "nsut.ac.in" || endid[1] === "nsit.ac.in") {
         if (this.state.SignUpPassword === this.state.SignUpconfirmPassword && this.state.SignUpPassword.length >= 8) {
-    fetch('http://localhost:3000/signup',{
+    fetch('https://nsut-hub-backend.herokuapp.com/signup',{
       method:'post',
       headers:{'Content-Type':'application/json'},
       body: JSON.stringify({

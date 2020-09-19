@@ -68,7 +68,7 @@ class Upload extends React.Component {
 
 
   onSubmit = () =>{
-    fetch('http://localhost:3000/bookupload',{
+    fetch('https://nsut-hub-backend.herokuapp.com/bookupload',{
       method:'post',
       headers:{'Content-Type':'application/json'},
       body: JSON.stringify({

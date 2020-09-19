@@ -1,5 +1,6 @@
 import React from "react"
 import "./bookCard.css"
+import {Link} from "react-router-dom";
 
 function BookCard(props){
   return (

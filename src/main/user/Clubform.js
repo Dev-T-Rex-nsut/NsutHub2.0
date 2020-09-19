@@ -30,10 +30,9 @@ class ClubSignup extends React.Component {
 
 
   onSubmit = () =>{
-    var endid = this.state.Descreption.split("@")
+    var endid = this.state.Email.split("@")
     if (endid[1] === "nsut.ac.in" || endid[1] === "nsit.ac.in") {
-        if (this.state.SignUpPassword === this.state.SignUpconfirmPassword && this.state.SignUpPassword.length >= 8) {
-    fetch('http://localhost:3000/club',{
+    fetch('https://nsut-hub-backend.herokuapp.com/club',{
       method:'post',
       headers:{'Content-Type':'application/json'},
       body: JSON.stringify({
@@ -45,15 +44,8 @@ class ClubSignup extends React.Component {
     })
     .then(response => response.json())
     .then(user =>{ 
-      alert("Check the Email:"+user.email+" for Verfication")
+      alert("Your club request is sent for authentication we will inform you at"+user.email+" after authentication \n Contact us at https://nsut-hub-backend.herokuapp.com/ for more information.")
     })
-  }
-  else if (this.state.SignUpPassword.length <= 8) {
-    {{alert("Password and Confirm Password are mismaching")}}
-  }
-  else{
-      {{alert("Password and Confirm Password are mismaching")}}
-  }
     }
     else{
       alert("Please use Nsut or Nsit ID for Registration")

@@ -11,8 +11,9 @@ class Verify extends React.Component{
 	}
 
 	componentDidMount(){
-		var tokenf = window.location.href.split("http://localhost:3001/verify/")[1]
-		fetch('http://localhost:3000/activation',{
+		var tokenf = window.location.href.split("http://localhost:3000/verify/")[1]
+		console.log(tokenf)
+		fetch('https://nsut-hub-backend.herokuapp.com/activation',{
 			method:'post',
 			headers:{'Content-Type':'application/json'},
 			body:JSON.stringify({

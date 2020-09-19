@@ -26,6 +26,8 @@ import JoinStudentClub from './main/bookstore/joinstudentclub';
 import SJoinStudentClub from './main/bookstore/sjoinstudentclub';
 import ProfileOverview from './main/user/profileview';
 import ClubSignup from './main/user/Clubform';
+import Studentclub from './main/ebooks/studentclub'
+import BookSearch from './main/bookstore/bookSearch'
 class App extends React.Component{
 
   constructor(props) {
@@ -74,9 +76,11 @@ class App extends React.Component{
           <Route exact path="/studentclub" component={SJoinStudentClub} />
           <Route exact path="/registerclub" component={ClubSignup}/>
           <Route exact path="/society" component={Societyhub} />
-          <Route exact path="/profile" component={() => <ProfileOverview rollno={this.state.Rollno} email={this.state.email} fname={this.state.FirstName} lname={this.state.LastName}/>}/>
+          <Route exact path="/profile" component={() => <ProfileOverview rollno={this.state.user.Rollno} email={this.state.user.email} fname={this.state.user.FirstName} lname={this.state.user.LastName}/>}/>
           <Route exact path="/upload" component={Upload} />
           <Route exact path="/notes" component={NoteDownloads}/>
+          <Route exact path="/club" component={Studentclub}/>
+          <Route exact path="/search" component={BookSearch}/>
           <Route exact path="/bookdetails/:bookid" component={BooksView}/>
           <Route exact path="/questions" component={QuestionDownloads}/>
           <Route path="/verify/" component={() => <Verify loaduser={this.loaduser}/>} />
@@ -103,6 +107,7 @@ class App extends React.Component{
           <Route exact path="/bookstore" component={JoinBookStore} />
           <Route exact path="/studentclub" component={JoinStudentClub} />
           <Route exact path="/questions" component={QuestionDownloads}/>
+          <Route exact path="/search" component={BookSearch}/>
           <Route exact path="/notes" component={NoteDownloads} />
           <Route path="/verify/" component={() => <Verify loaduser={this.loaduser}/>} />
         </div>

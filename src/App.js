@@ -28,6 +28,7 @@ import ProfileOverview from './main/user/profileview';
 import ClubSignup from './main/user/Clubform';
 import Studentclub from './main/ebooks/studentclub'
 import BookSearch from './main/bookstore/bookSearch'
+import { NotAvailable } from './main/initials/notAvailable';
 class App extends React.Component{
 
   constructor(props) {
@@ -80,7 +81,7 @@ class App extends React.Component{
           <Route exact path="/upload" component={Upload} />
           <Route exact path="/notes" component={NoteDownloads}/>
           <Route exact path="/club" component={Studentclub}/>
-          <Route exact path="/search" component={BookSearch}/>
+          <Route exact path="/search" component={NotAvailable}/>
           <Route exact path="/bookdetails/:bookid" component={BooksView}/>
           <Route exact path="/questions" component={QuestionDownloads}/>
           <Route path="/verify/" component={() => <Verify loaduser={this.loaduser}/>} />
@@ -107,7 +108,7 @@ class App extends React.Component{
           <Route exact path="/bookstore" component={JoinBookStore} />
           <Route exact path="/studentclub" component={JoinStudentClub} />
           <Route exact path="/questions" component={QuestionDownloads}/>
-          <Route exact path="/search" component={BookSearch}/>
+          <Route exact path="/search" component={NotAvailable}/>
           <Route exact path="/notes" component={NoteDownloads} />
           <Route path="/verify/" component={() => <Verify loaduser={this.loaduser}/>} />
         </div>
